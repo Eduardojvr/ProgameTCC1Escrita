@@ -1,4 +1,4 @@
-\chapter[Considerações sobre os Elementos Textuais]{Introdução}
+\chapter[Introdução]{Introdução}
 
 \section{Contexto}
 
@@ -8,8 +8,8 @@ e qualificação necessárias para solucionar os mais diversos problemas present
 variados projetos. Este fato está relacionado com a metodologia adotada no ensino de
 programação e também com a falta de motivação por parte dos estudantes. \cite{7975788}.
 
-\cite{inproceedings} afirma que uma das razões de os alunos não absorverem eficientemente
-os conceitos relacionados à programação se dá pela falta de concentração dos mesmos frente
+\cite{inproceedings} afirma que, uma das razões de os alunos não absorverem eficientemente
+os conceitos relacionados à programação se dá pela falta de concentração e motivação dos mesmos frente
 a exposição destes conteúdos na forma tradicional.
 
 \cite{funcional} destaca que a aprendizagem dos conceitos e mecanismos envolvidos na construção de programas não é
@@ -25,7 +25,7 @@ Dificuldade como estas apresentadas, encorajam o desenvolvimento de soluções q
 atual modelo de ensino. Diversas abordagens de ensino são estudadas para facilitar o aprendizado dos alunos, algumas delas são:
 gamificação, programação imperativa, programação funcional entre outras. Neste trabalho, será abordado o uso da gamificação em uma ferramenta
 de apoio ao ensino de programação a ser desenvolvida com base na identificação de requisitos da disciplina de Algoritmos 
-de Programação de Computadores, ofertada pela Universidade de Brasília, campus gama.
+de Programação de Computadores, ofertada pela Universidade de Brasília, campus Gama.
 
 Segundo \cite{6624228}, jogos bem projetados representam bons motivadores, uma vez que passa a sensação de satisfação
 e recompensa fazendo com que os jogadores persistam e fiquem engajados em realizar sua missões. Neste contexto, este poder
@@ -50,18 +50,45 @@ De forma a incentivar os usuários a participarem das atividades propostas.
 Durante as competições e batalhas, os estudantes têm a possibilidade de aprender com outros jogadores e comparar suas habilidades, tornando o aprendizado mais
 prazeroso \cite{LearningProgramming}. 
 
-\section{Problema}
-
-\section{Objetivos}
-
 \section{Justificativa}
 
-\section{Metodologia}
+De acordo com \cite{de2009visualg}, a abordagem de ensino tradicional de programação, que é aquela onde o professor apresenta
+uma série de conceitos aos alunos e os mesmos têm a tarefa de entender como se aplicam na resolução de problemas,
+para a maioria dos estudantes, se revelam muito abstratas.
 
-- Levantamento de requisitos (questionários)
-- Priorização de requisitos
-- Entrevistas
-- Conversas com professores
+Um estudo realizado pela Universidade Federal da Paraíba (UFPB) que analisou por seis períodos 
+acadêmicos os índices de reprovação na disciplina de Introdução à programação, apontou que 
+em nenhum dos seis períodos analisados houvera um índice de aprovação superior a 34\%. Além disso,
+os índices de reprovação e trancamento da disciplina girou em torno dos 64\% e 6\% respectivamente \cite{SBIE6739}.
+
+Um outro estudo, realizado na Faculdade de Educação Tecnológica do Estado do Rio de Janeiro (FAETERJ-Paracambi) por \cite{vieira2015dificuldades}, 
+envolvendo 663 alunos da disciplina de Algoritmos 1 mostrou que, destes alunos, apenas 511 cursaram a disciplina 
+até o final, ou seja, cerca de 152 alunos desistiram da disciplina. Do total restante (511), apenas 30\% foram
+diretamente aprovados (cerca de 153 alunos), 40\% foram reprovados diretamente (204 alunos) e 30\% foram para o exame final (recuperação, 153).
+Dos 153 alunos que foram para a recuperação, apenas 55\% foram aprovados (84 alunos), ou seja, dos 663 alunos que
+se matricularam na disciplina, apenas  288 alunos foram aprovados ao seu término, cerca de 43\%.
+
+\section{Problema}
+Nas seções anteriores, apresentou-se alguns estudos realizados a respeito da situação atual do ensino e aprendizagem
+de programação em matérias introdutórias, a partir destes panoramas, o presente trabalho visa responder a seguinte temática
+de pesquisa:
+Como desenvolver uma ferramenta gamificada para auxiliar o ensino e aprendizagem de programação?
+ 
+\section{Objetivos}
+Tendo sido apresentado o contexto e problema que este trabalho visa responder, objetiva-se
+desenvolver uma ferramenta que auxilie professores e estudantes no processo de ensino e aprendizagem
+de linguagens de programação em cursos de engenharias.
+
+\chapter{Referencial Teórico}
+
+\chapter{Metodologia}
+
+\begin{itemize}
+	\item Levantamento de requisitos (questionários, literatura, ferramentas semelhantes, plano de ensino, currículo pedagógico e etc) -> tabelar
+	\item Priorização de requisitos (usar o moscow?)
+	\item Entrevistas (entrevistar colegas que já fizeram e estão fazendo)
+	\item Conversas com professores
+\end{itemize}
 
 \section{Desenvolvimento}
 
@@ -83,38 +110,3 @@ na construção do sistema.
 
 No desenvolvimento desta ferramenta, a mesma foi dividida em duas áreas principais: backend e frontend. Para cada uma destas
 áreas, apresentamos a seguir as ferramentas utilizadas.
-
-
-O Desenvolvimento (Miolo ou Corpo do Trabalho) é subdividido em seções de 
-acordo com o planejamento do autor. As seções primárias são aquelas que 
-resultam da primeira divisão do texto do documento, geralmente 
-correspondendo a divisão em capítulos. Seções secundárias, terciárias, 
-etc., são aquelas que resultam da divisão do texto de uma seção primária, 
-secundária, terciária, etc., respectivamente.
-
-As seções primárias são numeradas consecutivamente, seguindo a série 
-natural de números inteiros, a partir de 1, pela ordem de sua sucessão no 
-documento.
-
-O Desenvolvimento é a seção mais importante do trabalho, por isso exigi-se 
-organização, objetividade e clareza. É conveniente dividi-lo em pelo menos 
-três partes:
-
-\begin{itemize}
-
-	\item Referencial teórico, que corresponde a uma análise dos trabalhos 
-	relevantes, encontrados na pesquisa bibliográfica sobre o assunto. 
-	\item Metodologia, que é a descrição de todos os passos metodológicos 
-	utilizados no trabalho. Sugere-se que se enfatize especialmente em (1) 
-	População ou Sujeitos da pesquisa, (2) Materiais e equipamentos 
-	utilizados e (3) Procedimentos de coleta de dados.
-	\item Resultados, Discussão dos resultados e Conclusões, que é onde se 
-	apresenta os dados encontrados a análise feita pelo autor à luz do 
-	Referencial teórico e as Conclusões.
-
-\end{itemize}
-
-\section{Uso de editores de texto}
-
-O uso de programas de edição eletrônica de textos é de livre escolha do autor. 
-
