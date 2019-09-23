@@ -1,7 +1,6 @@
 \chapter[Introdução]{Introdução}
 
 \section{Contexto}
-
 A tecnologia tem vindo a evoluir rapidamente e, com isto, nota-se o surgimento de
 diversos desafios. Um destes desafios é a falta de programadores que possuam competências 
 e qualificação necessárias para solucionar os mais diversos problemas presentes nos mais
@@ -25,7 +24,7 @@ Dificuldades como estas apresentadas, encorajam o desenvolvimento de soluções 
 atual modelo de ensino. Diversas abordagens de ensino são estudadas para facilitar o aprendizado dos alunos, algumas delas são:
 gamificação, programação imperativa, programação funcional e etc. Neste trabalho, será abordado o uso da gamificação em uma ferramenta
 de apoio ao ensino e aprendizagem de programação a ser desenvolvida com base na identificação de requisitos a partir da interação com ex alunos
- e alunos atuais da disciplina de Algoritmos de Programação de Computadores, ofertada pela Universidade de Brasília, campus Gama.
+e alunos atuais da disciplina de Algoritmos de Programação de Computadores, ofertada pela Universidade de Brasília, campus Gama.
 
 Segundo \cite{6624228}, jogos bem projetados representam bons motivadores, uma vez que passa a sensação de satisfação
 e recompensa fazendo com que os jogadores persistam e fiquem engajados em realizar sua missões. Neste contexto, este poder
@@ -51,7 +50,6 @@ Durante as competições e batalhas, os estudantes têm a possibilidade de apren
 prazeroso \cite{LearningProgramming}. 
 
 \section{Justificativa}
-
 De acordo com \cite{de2009visualg}, a abordagem de ensino tradicional de programação, que é aquela onde o professor apresenta
 uma série de conceitos aos alunos e os mesmos têm a tarefa de entender como se aplicam na resolução de problemas,
 para a maioria dos estudantes, se revelam muito abstratas.
@@ -79,7 +77,8 @@ Tendo sido apresentado o contexto e problema que este trabalho visa abranger, ob
 desenvolver uma ferramenta que auxilie professores e estudantes no processo de ensino e aprendizagem
 de linguagens de programação em cursos de engenharias.
 
-\chapter{Referencial Teórico}
+\chapter[ReferencialTeórico]{ReferencialTeórico}
+
 \section{Gamificação}
 Jogos são uma construção humana que envolvem em seu contexto fatores sociais, culturais e econômicos \cite{EaDF440}.
 
@@ -91,13 +90,14 @@ atividade.
 \subsection{Gamificação na Educação}
 Embora o termo gamificação tenha sido apresentado pela primeira vez em 2010, a idéia de se utilizar
 elementos de jogos em atividades que não são jogos, tem sido utilizado há muito tempo. Na educação
- de crianças, por exemplo, as mesmas podiam ter seus esforços e trabalhos reconhecidos por meio
- de estrelinhas ou outros tipos de recompensas dadas por seus educadores, como explica \cite{da2014gamificaccao}.
+de crianças, por exemplo, as mesmas podiam ter seus esforços e trabalhos reconhecidos por meio
+de estrelinhas ou outros tipos de recompensas dadas por seus educadores, como explica \cite{da2014gamificaccao}.
 
 \subsection{Modelos de Gamificação}
+blabla
  
 \section{Estudos Semelhantes}
-Com o objetivo de apoiar o ensino e aprendizado de programação, alguns autores investem no estudo e desenvolvimento
+Com o objetivo de apoiar o ensino e aprendizagem de programação, alguns autores investem no estudo e desenvolvimento
 de ferramentas que possam aumentar o interesse e engajamento de alunos. 
 
 \subsection{O Desafio da Serpente}
@@ -119,20 +119,20 @@ que deve ser estudado pelos jogadores.
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[keepaspectratio=true,scale=0.4]{figuras/desafioSerpente.png}
-	\caption{Representação conceitual do jogo}
+	\includegraphics[keepaspectratio=true,scale=0.35]{figuras/desafioSerpente.png}
+	\caption{Representação conceitual do jogo, \cite{raposo2016desafio}}
 	\label{figura1}
 \end{figure}
 
 Todos os dias da semana, de segunda a sexta feira, eram disponibilizados desafios que continham de duas a seis
 questões dos mais variados níveis de complexidade, permitindo que os jogadores, ao concluírem os desafios propostos, 
-conquistassem pontos e adquirissem armas, o objetivo era estimular os jogadores a estabelecerem uma rotina de estudos,
+conquistassem pontos e adquirissem armas. O objetivo era estimular os jogadores a estabelecerem uma rotina de estudos,
 dedicando diariamente algum tempo para a resolução de exercícios voltados para a programação.
 
 As questões foram classificadas em três níveis de complexidade (fácil, médio e difícil), no quadro a seguir, apresenta-se
 as características de cada um destes níveis.
 
-\begin{table}[h]
+\begin{table}[ht]
 	\centering
 	\resizebox{\textwidth}{!}{%
 	\begin{tabular}{|l|l|l|l|}
@@ -147,40 +147,39 @@ as características de cada um destes níveis.
 \end{table}
 
 Objetivando manter os jogadores motivados, cada fase possuia um sistema de (\textit{ranking}{\itshape}) independente
-das fases anteriores, desta forma, mesmo que um jogador não tenha obtido uma boa pontuação nas fases anteriores, ele
+das fases anteriores, desta forma, mesmo que um jogador não tivesse obtido uma boa pontuação nas fases anteriores, ele
 começaria a fase seguinte sem desvantagem em relação aos demais jogadores. 
 
 A medida que os jogadores acumulavam pontos, os mesmos conquistavam novas armas para combater a serpente. Estas armas podiam
-ser de defesa(escudos,armaduras e etc) ou de ataque(espada, lança e etc). O objetivo era que os jogadores conseguissem conquistar
+ser de defesa (escudos,armaduras e etc) ou de ataque (espada, lança e etc). O objetivo era fazer com que os jogadores conseguissem conquistar
 o maior número possível de armas em cada fase. Cada armamento possuia uma quantidade mínima de pontos necessários para sua
-aquisição e possuiam apenas características simbólicas.
+aquisição e possuiam apenas funções simbólicas.
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[keepaspectratio=true,scale=0.4]{figuras/armas.png}
+	\includegraphics[keepaspectratio=true,scale=0.45]{figuras/armas.png}
 	\caption{Exemplos de armas e pontuações, \cite{raposo2016desafio}}
-	\label{figura1}
+	\label{figura2}
 \end{figure}
 
-Além de permitir os jogadores colecionarem pontos e armas, os primeiros jogadores tinham sua fotos expostas no
+Além de permitir que os jogadores colecionassem pontos e armas, os primeiros jogadores tinham sua fotos expostas no
 site do jogo, exaltando suas conquistas.
 
-Para motivar os alunos a utilizarem a ferramenta e possibilitar a coleta de dados que
-permitissem analisar o impacto do uso da tecnologia gamificada no ensino de programação, foi 
-acordado que, os alunos que obtivessem um aproveitamento de no mínimo 70\% em todas as fases do jogo,
-receberiam um ponto extra na primeira unidade da disciplina. Os alunos que obtivessem nota superior ou igual 
-a 50\% em todas as fases do jogo, receberiam meio ponto extra na nota da primeira unidade da disciplina.
-Desta forma, a participação no jogo teria caráter voluntário, e não estaria diretamente ligada às avaliações da 
-disciplina. Recompensar os alunos com pontos extras tinha como objetivo  
-identificar até que ponto a motivação dos jogadores em resolver os desafios era ocasionado pelo próprio jogo e não 
-pelos pontos.
+Para motivar os alunos a utilizarem a ferramenta e possibilitar a coleta de dados que permitissem analisar o 
+impacto do uso da tecnologia gamificada no ensino de programação, foi acordado que, os alunos que obtivessem 
+um aproveitamento de no mínimo 70\% em todas as fases do jogo, receberiam um ponto extra na primeira unidade 
+da disciplina. Os alunos que obtivessem nota superior ou igual a 50\% em todas as fases do jogo, receberiam 
+meio ponto extra na nota da primeira unidade da disciplina. Desta forma, a participação no jogo teria caráter 
+voluntário e não estaria diretamente ligado às avaliações da disciplina. Recompensar os alunos com pontos extras
+tinha como objetivo identificar até que ponto a motivação dos jogadores em solucionar os desafios seria ocasionado
+pelo próprio jogo e não por pontos.
 
 Considerando as quatro primeiras semanas de aula utilizando a ferramenta, os resultados foram bastante animadores.
-Dos total 106 alunos que realmente frequentaram as aulas, apenas quatro não participaram de nenhum 
-dos desafios propostos, o que indica que a aceitação da ferramenta pelos alunos foi de mais de 96\%. Além destes indicadores
-quantitativos, \cite{raposo2016desafio} relatou em sua pesquisa que a empolgação dos alunos na utilização da ferramenta
-era bastante perceptível. Muitos alunos se diziam bastante ansiosos para o desafio do dia e notou-se um grande aumento 
-no número de discussões a respeito das questões durante as aulas.
+Do total de 106 alunos que realmente frequentaram as aulas, apenas quatro não participaram de nenhum dos desafios 
+propostos, o que indica que a aceitação da ferramenta pelos alunos foi de mais de 96\% . Além destes indicadores 
+quantitativos, \cite{raposo2016desafio} relatou em sua pesquisa que a empolgação dos alunos na utilização da 
+ferramenta era bastante perceptível. Muitos alunos se diziam bastante ansiosos para o desafio do dia e notou-se um 
+grande aumento no número de discussões a respeito das questões durante as aulas.
 
 \chapter{Metodologia}
 
@@ -205,4 +204,5 @@ na construção do sistema.
 
 No desenvolvimento desta ferramenta, a mesma foi dividida em duas áreas principais: backend e frontend. Para cada uma destas
 áreas, apresentamos a seguir as ferramentas utilizadas.
+
 
