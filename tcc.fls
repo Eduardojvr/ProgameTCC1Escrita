@@ -253,6 +253,8 @@ INPUT /Users/eduardojunio/Desktop/TCC1/template-latex-tcc/fixos/indiceAutomatico
 INPUT /Users/eduardojunio/Desktop/TCC1/template-latex-tcc/fixos/indiceAutomatico.tex
 INPUT /Users/eduardojunio/Desktop/TCC1/template-latex-tcc/tcc.toc
 INPUT /Users/eduardojunio/Desktop/TCC1/template-latex-tcc/tcc.toc
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/lm/ec-lmsso12.tfm
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/lm/ec-lmss10.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/lm/ec-lmssbx10.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/lm/rm-lmr12.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/lm/lmmi12.tfm
@@ -265,6 +267,7 @@ INPUT /Users/eduardojunio/Desktop/TCC1/template-latex-tcc/editaveis/consideracoe
 INPUT /Users/eduardojunio/Desktop/TCC1/template-latex-tcc/editaveis/consideracoes.tex
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/lm/ec-lmss17.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/lm/ec-lmri10.tfm
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/lm/ec-lmsso12.tfm
 INPUT /Users/eduardojunio/Desktop/TCC1/template-latex-tcc/figuras/desafioSerpente.png
 INPUT /Users/eduardojunio/Desktop/TCC1/template-latex-tcc/figuras/desafioSerpente.png
 INPUT /Users/eduardojunio/Desktop/TCC1/template-latex-tcc/figuras/desafioSerpente.png
@@ -310,7 +313,9 @@ INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr10.pfb
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr12.pfb
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmri10.pfb
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmri12.pfb
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmss10.pfb
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmss12.pfb
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmss17.pfb
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmsso12.pfb
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmsy10.pfb
