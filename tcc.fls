@@ -255,6 +255,7 @@ INPUT /Users/eduardojunio/Desktop/TCC1/template-latex-tcc/tcc.toc
 INPUT /Users/eduardojunio/Desktop/TCC1/template-latex-tcc/tcc.toc
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/lm/ec-lmssbo10.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/lm/ec-lmsso12.tfm
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/lm/ec-lmss10.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/lm/ec-lmssbx10.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/lm/rm-lmr12.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/lm/lmmi12.tfm
@@ -267,6 +268,9 @@ INPUT /Users/eduardojunio/Desktop/TCC1/template-latex-tcc/editaveis/consideracoe
 INPUT /Users/eduardojunio/Desktop/TCC1/template-latex-tcc/editaveis/consideracoes.tex
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/lm/ec-lmss17.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/lm/ec-lmri10.tfm
+INPUT /Users/eduardojunio/Desktop/TCC1/template-latex-tcc/figuras/modoTradicional.png
+INPUT /Users/eduardojunio/Desktop/TCC1/template-latex-tcc/figuras/modoTradicional.png
+INPUT /Users/eduardojunio/Desktop/TCC1/template-latex-tcc/figuras/modoTradicional.png
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/lm/ec-lmsso17.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/lm/omslmr.fd
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/lm/omslmr.fd
@@ -284,6 +288,9 @@ INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/lm/ec-lmr10.tfm
 INPUT /Users/eduardojunio/Desktop/TCC1/template-latex-tcc/figuras/armas.png
 INPUT /Users/eduardojunio/Desktop/TCC1/template-latex-tcc/figuras/armas.png
 INPUT /Users/eduardojunio/Desktop/TCC1/template-latex-tcc/figuras/armas.png
+INPUT /Users/eduardojunio/Desktop/TCC1/template-latex-tcc/figuras/arquitetura.png
+INPUT /Users/eduardojunio/Desktop/TCC1/template-latex-tcc/figuras/arquitetura.png
+INPUT /Users/eduardojunio/Desktop/TCC1/template-latex-tcc/figuras/arquitetura.png
 INPUT /Users/eduardojunio/Desktop/TCC1/template-latex-tcc/editaveis/textoepostexto.tex
 INPUT /Users/eduardojunio/Desktop/TCC1/template-latex-tcc/editaveis/textoepostexto.tex
 INPUT /Users/eduardojunio/Desktop/TCC1/template-latex-tcc/editaveis/elementosdotexto.tex
@@ -320,6 +327,7 @@ INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr10.pfb
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr12.pfb
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmri10.pfb
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmri12.pfb
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmss10.pfb
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmss12.pfb
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmss17.pfb
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmssbo10.pfb

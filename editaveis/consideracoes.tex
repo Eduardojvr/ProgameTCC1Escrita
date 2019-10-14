@@ -49,6 +49,8 @@ De forma a incentivar os usuários a participarem das atividades propostas.
 Durante as competições e batalhas, os estudantes têm a possibilidade de aprender com outros jogadores e comparar suas habilidades, tornando o aprendizado mais
 prazeroso \cite{LearningProgramming}. 
 
+\pagebreak
+
 \section{Justificativa}
 De acordo com \citeonline{de2009visualg}, a abordagem de ensino tradicional de programação, que é aquela onde o professor apresenta
 uma série de conceitos aos alunos e os mesmos têm a tarefa de entender como se aplicam na resolução de problemas,
@@ -88,8 +90,21 @@ Disciplina de algoritmos são normalmente oferecidas no início da grade curricu
 cursantes sejam calouros que ainda estão acostumados com a forma "mecanisada" de ensino que os habituam a somente aplicar fórmulas 
 sem qualquer tipo de análise mais profunda dos problemas \cite{KOLIVER}.
 
-De acordo com \citeonline{Borges}, a didática da maioria dos professores ainda segue 
+De acordo com \citeonline{Borges}, o modo tradicional (figura \ref{figura4}) não é suficiente para motivar os alunos a se
+interessarem por disciplinas de programação. Não fica claro para a maioria dos alunos, principalmente para aqueles
+não possuem nenhum tipo de conhecimento em informática, a importância de certos conteúdos.
 
+\begin{figure}[h]
+	\centering
+	\includegraphics[keepaspectratio=true,scale=0.34]{figuras/modoTradicional.png}
+	\caption{Sequência de passos típicos na apresentação de uma disciplina, \citeonline{Borges}}
+	\label{figura4}
+\end{figure}
+
+Ao se apresentar uma nova liguagem de programação, é comum as aulas serem realizadas em laboratórios com
+recursos computacionais. Apesar dessas aulas apresentarem um formato diferenciado em relação ao modo tradicional,
+os professores não exploram a diversidade dos equipamentos disponíveis com práticas que apoiem o desenvolvimento 
+de habilidades por parte dos estudantes \cite{Borges}.
 
 \section{Gamificação}
 Jogos são uma construção humana que envolvem em seu contexto fatores sociais, culturais e econômicos \cite{EaDF440}.
@@ -352,6 +367,38 @@ grande aumento no número de discussões a respeito das questões durante as aul
 
 \chapter{Metodologia}
 
+\section{Elicitação de requisitos}
+
+\subsection{Questionário}
+Para realizar a coleta de informações que permitissem a identificação dos requisitos, foi elaborado um questionário 
+contendo XXX perguntas referentes à disciplina Algoritmos de Programação de Computadores e algumas outra perguntas
+relacionadas à jogos. Em seguida, o questionário foi publicado em um grupo na rede social \textit{facebook} que contém
+vários estudantes dos cursos de engenharias da Universidade de Brasília (UnB), campus Gama (FGA). O mesmo questionário
+também foi disponibilizado em um grupo no \textit{telegram} da engenharia de software criado pelos próprios estudantes do
+curso. 
+
+Disponibilizar o questionário no grupo em que se encontram alunos de cada uma das cinco engenharias ofertadas no campus (FGA)
+teve como objetivo reunir o maior número possível de informações sobre a perspectiva de diferentes perfis de alunos que cursam, cursaram ou vão
+cursar a disciplina introdutória de programação.
+
+As perguntas disponibilizadas são apresentadas na tabela a seguir.
+
+% tabela com as perguntas aqui e percentual de respostas em uma das coluna
+\subsection{Ferramentas Semelhantes}
+Algumas ferramentas disponibilizadas na \textit{web} já apresentam características de jogos e , por conta disso
+atraem uma grande público que utilizam essas ferramentas para aprimorar seus conhecimentos em programação, como é
+o caso da plataforma \textit{Uri Online Judge} que é utilizada por cerca de .
+Nesta seção são apresentadas algumas das tecnologias gamificadas voltadas para o ensino e prática de programação
+gamificadas.
+
+\subsection{Entrevistas}
+
+
+
+\subsection{Priorização de requisitos: \textit{Moscow}}
+
+
+
 \begin{itemize}
 	\item Levantamento de requisitos (questionários, literatura, ferramentas semelhantes, plano de ensino, currículo pedagógico e etc) -> tabelar
 	\item Priorização de requisitos (usar o moscow?)
@@ -363,15 +410,46 @@ grande aumento no número de discussões a respeito das questões durante as aul
 
 \subsection{Arquitetura}
 
+No desenvolvimento da ferramenta, tem-se como modelo arquitetural a ser utilizado o "n camadas". Esse tipo
+de arquitetura consiste na separação de responsabilidades específicas para cada uma das camadas presentes 
+na construção do sistema \cite{MSF}.
 
-\subsection{Ferramentas}
+O modelo arquitetural simplificado, principais tecnologias e como essas tecnologias se comunicam pode ser observado 
+na figura a seguir.
 
-Para o desenvolvimento de uma solucão de software, deve-se considerar diversos
-fatores, como: afinidade com as tecnologias de auxílio ao desenvolvimento, recursos disponibilizados pela tecnologia 
-(frameworks, bibliotecas e etc), documentação da tecnologia entre outros fatores que podem influenciar diretamente
-na construção do sistema.
+\begin{figure}[h]
+	\centering
+	\includegraphics[keepaspectratio=true,scale=0.25]{figuras/arquitetura.png}
+	\caption{Representação simplificada da arquitetura do sistema.}
+	\label{arquitetura}
+\end{figure}
 
-No desenvolvimento desta ferramenta, a mesma foi dividida em duas áreas principais: backend e frontend. Para cada uma destas
-áreas, apresentamos a seguir as ferramentas utilizadas.
+
+
+\subsection{Tecnologias}
+
+No desenvolvimento da ferramenta, escolheu-se as tecnologias com base nas seguintes características: afinidade
+com as tecnologias de desenvolvimento, recursos disponibilizados pela tecnologia, qualidade e disponibilidade
+de documentações e comunidades da tecnologia.
+
+Nas subseções a seguir, são apresentadas resumidamente as principais tecnologias a serem utilizadas no desenvolvimento da 
+ferramenta.
+
+\subsubsection{Java}
+\subsubsection{Vue.js}
+\subsubsection{Mysql}
+\subsubsection{Maven}
+\subsubsection{Jersey}
+Jersey
+% (frameworks, bibliotecas e etc), documentação da tecnologia entre outros fatores que podem influenciar diretamente
+% na construção do sistema.
+
+% Para o desenvolvimento de uma solucão de software, deve-se considerar diversos
+% fatores, como: afinidade com as tecnologias de auxílio ao desenvolvimento, recursos disponibilizados pela tecnologia 
+% (frameworks, bibliotecas e etc), documentação da tecnologia entre outros fatores que podem influenciar diretamente
+% na construção do sistema.
+
+% No desenvolvimento desta ferramenta, a mesma foi dividida em duas áreas principais: backend e frontend. Para cada uma destas
+% áreas, apresentamos a seguir as ferramentas utilizadas.
 
 
