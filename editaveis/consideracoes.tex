@@ -373,6 +373,9 @@ ferramenta era bastante perceptível. Muitos alunos se diziam bastante ansiosos 
 grande aumento no número de discussões a respeito das questões durante as aulas.
 
 \chapter{Metodologia}
+Neste capítulo são apresentados com detalhes o passo a passo a ser realizado para a contrução de uma ferramenta \textit{web}
+de apoio ao ensino e aprendizagem de programação gamificada, bem como os passos dados para levantar os requisitos necessários
+para sua construção.
 
 \section{Elicitação de requisitos}
 Com o objetivo de levantar requisitos para a construção da ferramenta de apoio ao ensino e aprendizagem de 
@@ -443,8 +446,6 @@ de acordo com a pontuação que vão conquistando a medida que concluem os desaf
 
 % \subsection{Entrevistas}
 
-
-
 \subsection{Priorização de requisitos: \textit{Moscow}}
 Após concluir a coleta de informações, foi elaborado a tabela que é apresentada logo em seguida contendo os requisitos
 identificados.
@@ -499,7 +500,7 @@ técnica de priorização de requisitos. É possível notar a redução gradativ
 e urgência de desenvolvimento. 
 
 
-\subsubsection{Escolha e implementação de \textit{core drives}}
+\subsection{Escolha e implementação de \textit{core drives}}
 Com base nas pesquisas realizadas que envolveu a aplicação de um questionário e observação de ferramentas semelhantas voltadas
 para o ensino de programação como \textit{URI - Online judge} e \textit{Data camp} e, a partir da priorização dos requitos identificados
 com as pesquisas....................
@@ -534,6 +535,34 @@ Cada uma das cinco fases podem ser vistas na figura \ref{cascata} apresentada lo
 	\label{cascata}
 \end{figure}
 
+\subsection{Tecnologias}
+
+No desenvolvimento da ferramenta, escolheu-se as tecnologias com base nas seguintes características: afinidade
+com as tecnologias de desenvolvimento, recursos disponibilizados pela tecnologia, qualidade e disponibilidade
+de documentações e comunidades da tecnologia.
+
+A seguir, são apresentadas tecnologias a serem utilizadas no desenvolvimento da ferramenta e suas características.
+
+\begin{itemize}
+	\item Java: Linguagem de programação orientada a objetos desenvolvida na década de 90.Diferente das linguagens de programação
+		modernas que são compiladas para código nativo, a linguagem java é compilada para um \textit{bytecode} que é interpretado por uma máquina
+		virtual (\textit{java virtual machine}). Por conta disso, a linguagem torna-se altamente portável, isto é, independente de plataforma. \cite{java}
+	\item Vue.js: \textit{Framework} javaScript voltado para o desenvolvimento de interfaces de usuário. \cite{vue}
+	\item MySql: Sistema de gerenciamento de banco de dados que utiliza linguagem sql como interface. Voltado para o armazenamento e manutenção 
+		de registros de um banco de dados. \cite{mysql}
+	\item Maven: Ferramenta de automação de compilação muito utilizada em projetos que envolvem a linguagem java. O maven
+		utiliza um arquivo \textit{xml} (POM) para descrever o projeto de software sendo implementado, suas dependências, componentes
+		externos, \textit{plugins} necessários, diretórios e ordem de compilação. \cite{maven}
+	\item Jersey: \textit{Framework} que facilita o desenvolvimento de APIs (Application Programming Interface) RESTful.\cite{jersey}
+	\item Axios: É um cliente HTTP que permite consumir e exibir dados de uma API (Application Programming Interface) de forma facilitada e ágil. \cite{axios}
+	\item JDBC: \textit{Driver} que possui um conjunto de classes e interfaces java que permitem o envio/comunicação com qualquer
+		banco de dados relacional. Permitindo interligar a aplicação com um banco de dados. \cite{jdbc}
+	\item Html: Linguagem de marcação bastante utilizada na construção de páginas web. Que podem ser interpretados por 
+		qualquer navegador. \cite{html}
+	\item CSS: Mecanismo que permite adicionar cores, fontes, espaçamentos e efeitos em um documento \textit{web} (html). \cite{css}
+
+\end{itemize}
+
 \subsection{Arquitetura}
 
 No desenvolvimento da ferramenta, tem-se como modelo arquitetural a ser utilizado o "n camadas". Esse tipo
@@ -549,31 +578,46 @@ na figura a seguir.
 	\caption{Representação simplificada da arquitetura do sistema.}
 	Fonte: {Autor}
 	\label{arquitetura}
-\end{figure}
+\end{figure}		
+
+% \begin{table}[h]
+% 	\centering
+% 	\resizebox{.8\textwidth}{!}{%
+% 	\begin{tabular}{|p{3cm}|p{3cm}|p{8cm}|}
+% 	\hline
+% 	\textbf{Tecnologia} & \textbf{Frente} & \textbf{Características} \\ \hline
+% 	Java & Backend & Linguagem de programação orientada a objetos desenvolvida na década de 90.Diferente das linguagens de programação
+% 		modernas que são compiladas para código nativo, a linguagem java é compilada para um \textit{bytecode} que é interpretado por uma máquina
+% 		virtual (\textit{java virtual machine}). Por conta disso, a linguagem torna-se altamente portável, isto é, independente de plataforma. \\ \hline
+% 	Vue.js & Frontend & \textit{Framework} javaScript voltado para o desenvolvimento de interfaces de usuário.\\ \hline
+% 	MySql & Backend & Sistema de gerenciamento de banco de dados que utiliza linguagem sql como interface. Voltado para o armazenamento e manutenção 
+% 		de registros de um banco de dados.\\ \hline
+% 	Maven & Backend & Ferramenta de automação de compilação muito utilizada em projetos que envolvem a linguagem java. O maven
+% 		utiliza um arquivo \textit{xml} (POM) para descrever o projeto de software sendo implementado, suas dependências, componentes
+% 		externos, \textit{plugins} necessários, diretórios e ordem de compilação.\\ \hline
+% 	Jersey & Backend & \textit{Framework} que facilita o desenvolvimento de APIs (Application Programming Interface) RESTful.\cite{jersey}\\ \hline
+% 	Axios & Frontend & bla bla bla bla bla bla bla bla bla bla\\ \hline
+% 	JDBC  & Backend & \textit{Driver} que possui um conjunto de classes e interfaces java que permitem o envio/comunicação com qualquer
+% 		banco de dados relacional. Permitindo interligar a aplicação com um banco de dados.\cite{jdbc}\\ \hline
+% 	Html & Frontend & Linguagem de marcação bastante utilizada na construção de páginas web. Que podem ser interpretados por 
+% 		qualquer navegador.\\ \hline \pagebreak
+% 	CSS & Frontend & Mecanismo que permite adicionar cores, fontes, espaçamentos e efeitos em um documento \textit{web} (html). \cite{css} \\ \hline
+% 	\end{tabular}%
+% 	}
+% 	\caption{Tecnologias de desenvolvimentos selecionadas}
+% 	Fonte: {Autor}
+% 	% \small{Quadro 2 - Requisitos funcionais} 
+% \end{table}
 
 
-\subsection{Tecnologias}
 
-No desenvolvimento da ferramenta, escolheu-se as tecnologias com base nas seguintes características: afinidade
-com as tecnologias de desenvolvimento, recursos disponibilizados pela tecnologia, qualidade e disponibilidade
-de documentações e comunidades da tecnologia.
 
-Nas subseções a seguir, são apresentadas resumidamente as principais tecnologias a serem utilizadas no desenvolvimento da 
-ferramenta.
-
-\subsubsection{Java}
-\subsubsection{Vue.js}
-\subsubsection{Mysql}
-\subsubsection{Maven}
-\subsubsection{Jersey}
-Jersey
-
-\begin{itemize}
-	\item Levantamento de requisitos (questionários, literatura, ferramentas semelhantes, plano de ensino, currículo pedagógico e etc) -> tabelar
-	\item Priorização de requisitos (usar o moscow?)
-	\item Entrevistas (entrevistar colegas que já fizeram e estão fazendo)
-	\item Conversas com professores
-\end{itemize}
+% \begin{itemize}
+% 	\item Levantamento de requisitos (questionários, literatura, ferramentas semelhantes, plano de ensino, currículo pedagógico e etc) -> tabelar
+% 	\item Priorização de requisitos (usar o moscow?)
+% 	\item Entrevistas (entrevistar colegas que já fizeram e estão fazendo)
+% 	\item Conversas com professores
+% \end{itemize}
 
 % (frameworks, bibliotecas e etc), documentação da tecnologia entre outros fatores que podem influenciar diretamente
 % na construção do sistema.
