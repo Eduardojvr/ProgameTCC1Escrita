@@ -271,7 +271,7 @@ corretamente podem gerar resultados saudáveis e positivos. De acordo com \citeo
 todos os \textit{core drive} objetivando obter resultados positivos e produtivos.
 
 
-\section{Ferramenta de apoio ao ensino e aprendizagem de programação gamificada}
+\section{Estudos semelhantes}
 % Com o objetivo de apoiar o ensino e aprendizagem de programação, alguns autores investem no estudo e desenvolvimento
 % de ferramentas que possam aumentar o interesse e engajamento de alunos na realização de determinadas atividade. Nesta
 % seção, são apresentadas algumas tecnologias, segundo a literatura, que foram desenvolvidas com o objetivo de auxiliar
@@ -326,7 +326,8 @@ as características de cada um destes níveis.
 	Difícil & \begin{tabular}[c]{@{}l@{}}Elaboração de\\ Programas\end{tabular} & 20 minutos & 2 \\ \hline
 	\end{tabular}%
 	}
-	\small{Quadro 1 - Classificação das questões, \citeonline{raposo2016desafio}} 
+	\caption{Classificação das questões, \citeonline{raposo2016desafio}}
+	% \small{Quadro 1 - Classificação das questões, \citeonline{raposo2016desafio}} 
 \end{table}
 
 \pagebreak
@@ -337,7 +338,7 @@ começaria a fase seguinte sem desvantagem em relação aos demais jogadores.
 A medida que os jogadores acumulavam pontos, os mesmos conquistavam novas armas para combater a serpente. Estas armas podiam
 ser de defesa (escudos,armaduras e etc) ou de ataque (espada, lança e etc). O objetivo era fazer com que os jogadores conseguissem conquistar
 o maior número possível de armas em cada fase. Cada armamento possuia uma quantidade mínima de pontos necessários para sua
-aquisição e possuiam apenas funções simbólicas.
+aquisição e possuiam apenas funções simbólicas..
 
 \begin{figure}[h]
 	\centering
@@ -368,38 +369,39 @@ grande aumento no número de discussões a respeito das questões durante as aul
 \chapter{Metodologia}
 
 \section{Elicitação de requisitos}
-Com o objetivo de se levantar requisitos para a construção da ferramenta de apoio ao ensino e aprendizagem de 
+Com o objetivo de levantar requisitos para a construção da ferramenta de apoio ao ensino e aprendizagem de 
 programação, foi elaborado um questionário para coletar informações a respeito da disciplina introdutória de programação 
-do campus Gama (FGA) da universidade de Brasília na visão dos alunos que cursaram ou estão cursando a disciplina, também 
+do campus Gama (FGA) da universidade de Brasília na visão dos alunos que cursaram ou estão cursando a disciplina. Também 
 foram incluidas  questões relacionadas aos \textit{games} com o objetivo de identificar alguns mecanismos característicos
-de jogos que pudessem ser incluidos na construção da ferramenta levando em consideração o \textit{framework octalysis}.
+de jogos que pudessem ser incluidos na construção da ferramenta levando em consideração o  \textit{framework octalysis}
+apresentado no capítulo 2 deste trabalho.
 
 Ao se concluir a pesquisa baseada no questionário, iniciou-se a pesquisa por plataformas gamificadas semelhantes, buscando
-identificar os mecanismos mais utilizados nestas ferramentas, usabilidade (layouts, responsividade e etc) entre outras.
+identificar os mecanismos mais utilizados nestas ferramentas (sistema de \textit{ranking}, disputas e etc), usabilidade (layouts, responsividade e etc) entre outras.
 
 Nas subseções a seguir, são apresentadas em detalhes a elaboração e resultados obtidos a partir das pesquisas realizadas.
 
 \subsection{Questionário}
 Para realizar a coleta de informações que permitissem a identificação dos requisitos, foi elaborado um questionário 
 contendo XXX perguntas referentes à disciplina Algoritmos de Programação de Computadores e algumas outra perguntas
-relacionadas à jogos. Em seguida, o questionário foi publicado em um grupo na rede social \textit{facebook} que contém
+relacionadas à jogos na perspectiva do participante do questionário. Em seguida, o questionário foi publicado em um grupo na rede social \textit{facebook} que contém
 vários estudantes dos cursos de engenharias da Universidade de Brasília (UnB), campus Gama (FGA). O mesmo questionário
 também foi disponibilizado em um grupo no \textit{telegram} da engenharia de software criado pelos próprios estudantes do
 curso. 
 
-Disponibilizar o questionário no grupo em que se encontram alunos de cada uma das cinco engenharias ofertadas no campus (FGA)
+Disponibilizar o questionário no grupo do \textit{facebook} em que se encontram alunos de cada uma das cinco engenharias ofertadas no campus (FGA)
 teve como objetivo reunir o maior número possível de informações sobre a perspectiva de diferentes perfis de alunos que cursam, cursaram ou vão
 cursar a disciplina introdutória de programação.
 
 
-As perguntas disponibilizadas são apresentadas na tabela a seguir.
+As perguntas realizadas podem ser encontradas no anexo XXX deste trabalho.
 
 % tabela com as perguntas aqui e percentual de respostas em uma das coluna
 \subsection{Ferramentas Semelhantes}
 Algumas ferramentas disponibilizadas na \textit{web} já apresentam características de jogos e , por conta disso,
-atraem um grande público que utilizam essas ferramentas para aprimorar seus conhecimentos em programação, como é
+atraem um grande público que utilizam destes recursos para aprimorar seus conhecimentos em programação, como é
 o caso da plataforma \textit{Uri Online Judge} que é utilizada por cerca de 101.238 usuários atualmente e está disponível em três
-linguas, incluindo o português.
+idiomas, incluindo o português.
 Nesta seção são apresentadas algumas das tecnologias gamificadas voltadas para o ensino e prática de programação
 gamificadas. Algumas características de \textit{games} identificadas nestas ferramentas foram utilizadas como fonte
 para o desenvolvimento da ferramenta proposta ao se notar sua grande utilização e aceitação após a comparação com as 
@@ -412,10 +414,19 @@ formas de rankeamento que são: individual, por universidade ou por país. Até 
 lidera o \textit{ranking} de exercícios resolvidos e quantidade de usuários com 37.23.579 de exercícios resolvidos e cerca
 de 101.238 usuários. \cite{URI} 
 
-torneios, times
+A ferramenta permite que seus usuários criem times e participem de torneios de duração que variam de trinta minutos até no 
+máximo cinco dias, onde os jogadores batalham uns contra os outros na resolução de problemas relativos à programação.
 
+O URI possui nove categorias de problemas que vão do nível mais básico (iniciante) até os mais complexos envolvendo grafos,
+geometria computacional, linguagem sql entre outros.
 
-\subsection{Entrevistas}
+Além da grande diversidade de categorias de problemas, a ferramenta permite que o usuário escolha a linguagem que deseja
+praticar suas habilidades e conhecimentos em programação. No total são dezoito linguagens de programação que o jogador pode 
+escolher.
+
+\subsubsection{\textit{Data camp}}
+
+% \subsection{Entrevistas}
 
 
 
@@ -423,33 +434,72 @@ torneios, times
 Após concluir a coleta de informações, foi elaborado a tabela que é apresentada logo em seguida contendo os requisitos
 identificados.
 
-% tabela aqui
+\begin{table}[h]
+	\centering
+	\resizebox{.8\textwidth}{!}{%
+	\begin{tabular}{|l|l|l|l|}
+	\hline
+	\textbf{Identificador} & \textbf{Requisito}\\ \hline
+	RF 01 & bla bla bla bla bla bla bla bla bla bla \\ \hline
+	\end{tabular}%
+	}
+	\caption{Requisitos Funcionais}
+	% \small{Quadro 2 - Requisitos funcionais} 
+\end{table}
 
 Com base na tabela apresentada anteriormente, utilizou-se a técnica de priorização de requisitos \textit{moscow} para realizar
 a priorização dos requisitos. Esta técnica consiste na utilização de um quadro dividido em quatro colunas que servem como "classificadores"
-de prioridade.
+de prioridade.\cite{moscow}
 
 Logo em seguida são apresentados resumidamente cada um das quatro possíveis classificações abordadas pela técnica.
 \begin{itemize}
-	\item  \textit{Must Have}": nesta coluna vão todos os requisitos que críticos ou obrigatórios para a construção do sistema.
-	\item  \textit{Should Have}:
-	\item \textit{Could Have}:
-	\item \textit{Would Have}:
-
+	\item  \textit{Must Have}: nesta coluna vão todos os requisitos que críticos ou obrigatórios para a construção do sistema. Se um dos ítens
+não é concluído, o projeto não é considerado bem sucedido;
+	\item  \textit{Should Have}: itens com classificação \textit{should} são importantes mas não são necessários para entrega em um primeiro 
+momento. São ítens tão importantes quanto os classificados como \textit{must}, mas em geral não são críticos ou pode-se esperar um pouco para ser
+trabalhado;
+	\item \textit{Could Have}: Ítens com esta classificação são desejáveis, mas não são necessários. Geralmente podem ser atendidos quando 
+houver tempo e recursos disponíveis para sua realização.
+	\item \textit{Would Have}: Ítens com esta classificação são os menos críticos ou não são adequados para serem realizados durante algum
+período de tempo.
 \end{itemize}
+
+Segundo \citeonline{moscow}, algumas vantagens de se utilizar a técnica \textit{moscow} são: facilidade de compreensão, facilidade de trabalho, linguagem simples
+entre outras. É importante salientar que se trata de uma técnica subjetiva quando se refere à classificação dos ítens e por este motivo, demanda de um 
+bom entendimento do problema que se tem a intenção de resolver, de forma a melhor identificar quais ítens são de fato prioridades em relação à outros ítens.
+
+Em seguida é apresentado um diagrama que torna o entendimento da utilização técnica \textit{moscow} mais simples.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[keepaspectratio=true,scale=0.75]{figuras/moscow.png}
+	\caption{Exemplificação da classificação de ítens quanto à sua prioridade, \cite{moscow}}
+	\label{moscow}
+\end{figure}
+
+Na figura \ref{moscow} é apresentado uma esquematização simplificada quanto à utilização do \textit{moscow} como 
+técnica de priorização de requisitos. É possível notar a redução gradativa da prioridade dos ítens quanto a sua necessidade
+e urgência de desenvolvimento. 
 
 
 \subsubsection{Escolha e implementação de \textit{core drives}}
+Com base nas pesquisas realizadas que envolveu a aplicação de um questionário e observação de ferramentas semelhantas voltadas
+para o ensino de programação como \textit{URI - Online judge} e \textit{Data camp} e, a partir da priorização dos requitos identificados
+com as pesquisas....................
 
 
-\begin{itemize}
-	\item Levantamento de requisitos (questionários, literatura, ferramentas semelhantes, plano de ensino, currículo pedagógico e etc) -> tabelar
-	\item Priorização de requisitos (usar o moscow?)
-	\item Entrevistas (entrevistar colegas que já fizeram e estão fazendo)
-	\item Conversas com professores
-\end{itemize}
+\subsection{Desenvolvimento: metodologia cascata}
+De acordo com \citeonline{semedo2012ganhos}, metodologia pode ser definida como um conjunto de procedimentos, técnicas, documentação e ferramentas que 
+auxiliam os responsáveis ou interessados no desenvolvimento e implementação de um sistema de informação. Na maioria das vezes, o sucesso
+de um projeto de software depende de vários fatores que vão desde o planejamento à escolha mais adequada de uma metodologia.
 
-\section{Desenvolvimento}
+O modelo cascata, também conhecido como modelo tradicional, é uma das metodologias mais antigas e conhecidas. A utilização desta 
+metodologia consiste em seguir o desenvolvimento do projeto de forma sequencial, onde só se deve passar para os níveis seguintes após
+a conclusão do nível anterior. Esta metodologia envolve duas grandes fases: levantamento de requisitos/necessidades e design. \cite{semedo2012ganhos}
+
+Muitos autores desencorajam a utilização da metodologia cascata no desenvolvimento de grandes sistemas, como é o caso do pesquisador
+\apudonline{gilb1988principles}{semedo2012ganhos}  e \apudonline{brooks}{semedo2012ganhos}. Este tipo de metodologia deve ser usada apenas em situações onde os requisitos do software são estáveis e requisitos
+que possam vir a surgir no futuro sejam previsíveis. \cite{semedo2012ganhos}
 
 \subsection{Arquitetura}
 
@@ -468,7 +518,6 @@ na figura a seguir.
 \end{figure}
 
 
-
 \subsection{Tecnologias}
 
 No desenvolvimento da ferramenta, escolheu-se as tecnologias com base nas seguintes características: afinidade
@@ -484,6 +533,14 @@ ferramenta.
 \subsubsection{Maven}
 \subsubsection{Jersey}
 Jersey
+
+\begin{itemize}
+	\item Levantamento de requisitos (questionários, literatura, ferramentas semelhantes, plano de ensino, currículo pedagógico e etc) -> tabelar
+	\item Priorização de requisitos (usar o moscow?)
+	\item Entrevistas (entrevistar colegas que já fizeram e estão fazendo)
+	\item Conversas com professores
+\end{itemize}
+
 % (frameworks, bibliotecas e etc), documentação da tecnologia entre outros fatores que podem influenciar diretamente
 % na construção do sistema.
 
