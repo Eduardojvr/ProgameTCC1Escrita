@@ -753,13 +753,21 @@ Até o momento de de elaboração deste trabalho, a plataforma contava com cerca
 Após concluir a coleta de informações, foi elaborado a tabela que é apresentada logo em seguida contendo os requisitos
 identificados.
 
+\pagebreak
+
 \begin{table}[h]
 	\centering
 	\resizebox{.8\textwidth}{!}{%
 	\begin{tabular}{|l|l|l|l|}
 	\hline
 	\textbf{Identificador} & \textbf{Requisito}\\ \hline
-	RF 01 & bla bla bla bla bla bla bla bla bla bla \\ \hline
+	RF 01 & CRUD de usuários \\ \hline
+	RF 02 & Ativar/desativar perfil de usuário \\ \hline
+	RF 03 & Sistema de rankeamento de usuários\\ \hline
+	RF 04 & CRUD de disciplinas \\ \hline
+	RF 05 & CRUD de conteúdos \\ \hline
+	RF 06 & Desafios individuais para usuários \\ \hline
+	RF 07 & Sistema de recompensas (pontuação) \\ \hline
 	\end{tabular}%
 	}
 	\caption{Requisitos Funcionais}
@@ -802,6 +810,22 @@ Na figura \ref{moscow} é apresentado uma esquematização simplificada quanto �
 técnica de priorização de requisitos. É possível notar a redução gradativa da prioridade dos ítens quanto a sua necessidade
 e urgência de desenvolvimento. 
 
+Na tabela \ref{prioridade}, são apresentados os requisitos priorizados a partir desta técnica (\textit{moscow}.
+
+\begin{table}[h]
+	\centering
+	\resizebox{\textwidth}{!}{%
+	\begin{tabular}{|p{6cm}|p{6cm}|p{6cm}|p{6cm}|}
+	\hline
+	\textbf{\textit{Must}} & \textbf{\textit{Should}} & \textbf{\textit{Could}} & \textbf{\textit{Wont}} \\ \hline
+		X & X & X & X  \\ \hline
+	\end{tabular}%
+	}
+	\caption{Requisitos priorizados utilizando \textit{moscow}}
+	\label{prioridade}
+	Fonte: autor
+	% \small{Quadro 1 - Classificação das questões, \citeonline{raposo2016desafio}} 
+\end{table}
 
 \subsection{Escolha do \textit{framework Octalysis}}
 Com base na quantidade de trabalhos em gamificação que utilizaram o \textit{framework Octalysis} como suporte para o desenvolvimento de 
@@ -819,6 +843,45 @@ identificar os perfis predominantes dentro do grupo para o qual a proposta de de
 (alunos da FGA).
 
 % COLOCAR AQUI O GRAFICO OCTALYSIS DO MEU MODELO RESULTANTE.
+
+\subsection{Plano pedagógico}
+
+Nesta subseção são apresentados os conteúdos que se espera abordar no ensino de programação por meio da ferramenta gamificada. É importante  
+ressaltar que devido a grande quantidade de conteúdos e devido a dificuldade da criação e seleção de conteúdos relevantes aos usuários, pode 
+ser que ocorra em um primeiro momento apenas a inclusão de alguns assuntos. 
+
+A seleção e ordenação dos conteúdos foram realizadas com base nas informações curriculares apresentadas pela plataforma matrícula web em uma 
+busca pelas disciplinas “computação básica” e “algoritmos e programação de computadores”. As informações podem ser apreciadas diretamente na 
+plataforma ou por meio do anexo \ref{planocb} e anexo \ref{planoapc}. Alguns conteúdos não foram incluídos por não fazerem parte da nova grade curricular e escopo da 
+disciplina “algoritmos e programação de computadores”.
+
+A ordem de apresentação dos conteúdos aos usuários pela ferramenta é apresentado na tabela \ref{prioridade}.
+
+\begin{table}[h]
+	\centering
+	\resizebox{\textwidth}{!}{%
+	\begin{tabular}{|p{4cm}|p{8cm}|}
+	\hline
+	\textbf{Prioridade/ordem} & \textbf{Assunto} \\ \hline
+		1º & Algoritmos  \\ \hline
+		2º & Linguagem de programação \\ \hline
+		3º & Tipos de dados \\ \hline
+		4º & Entrada e saída de dados \\ \hline
+		5º & Operações primitivas  \\ \hline
+		6º & Variáveis e expressões  \\ \hline
+		7º & Estruturas de decisão  \\ \hline
+		8º & Laços de repetição \\ \hline
+		9º & Vetores   \\ \hline
+		10º & Matrizes  \\ \hline
+		11º & Funções e Procedimentos  \\ \hline
+		12º & Arquivos: Armazenamento e manipulação \\ \hline
+	\end{tabular}%
+	}
+	\caption{Prioridade de conteúdos.}
+	\label{prioridade}
+	Fonte: autor
+\end{table}
+
 
 \section{Fase 2: Desenvolvimento da ferramenta}
 
@@ -956,7 +1019,65 @@ Todas as tecnologias descritas neste trabalho são gratuitas e viáveis de serem
 necessidade de uso alguma ferramenta paga, por exemplo a hospedagem da aplicação. Para este cenário serão analisadas os serviços de hospedagem mais
 viáveis.
 
-\chapter{Cronograma}
+ 
+\chapter{Cronogramas}
+Nas subseções a seguir, são apresentados estimativas de desenvolvimento tanto da proposta de construção da ferramenta (TCC 2) quanto da 
+realização dos estudos que justificam e viabilizam a consolidação da proposta (TCC 1). 
+
+É importante ressaltar que os cronogramas apresentados estão sujeitos a mudanças e servem apenas como guia e indicador de progresso.
+
+\section{Cronograma TCC 1}
+
+
+\begin{table}[h]
+	\centering
+	\resizebox{\textwidth}{!}{%
+	\begin{tabular}{|p{8cm}|p{4cm}|p{4cm}|}
+	\hline
+	\textbf{Atividade} & \textbf{Data Inicial} & \textbf{Data final} \\ \hline	
+		Pesquisa e escrita: Introdução & & \\ \hline
+		Pesquisa e escrita: Referencial Teórico & & 22/10/2019 \\ \hline
+		Pesquisa e escrita: Metodologia & & 25/10/2019 \\ \hline
+		Escrita: Resultados esperados & & \\ \hline
+		Escrita: Cronograma TCC 2 & & 24/10/2019 \\ \hline
+	\end{tabular}%
+	}
+	\caption{Cronograma TCC 1.}
+	\label{perfil}
+	Fonte: autor
+	% \small{Quadro 1 - Classificação das questões, \citeonline{raposo2016desafio}} 
+\end{table}
+
+
+\section{Cronograma TCC 2}
+
+
+\begin{table}[h]
+	\centering
+	\resizebox{\textwidth}{!}{%
+	\begin{tabular}{|p{8cm}|p{4cm}|p{4cm}|}
+	\hline
+	\textbf{Atividade} & \textbf{Data Inicial} & \textbf{Data final} \\ \hline
+		Desenvolvimento: Criação da base do projeto de acordo com arquitetura & 22/10/2019 & 22/10/2019 \\ \hline
+		Gerência de configuração:  Deploy da base do projeto em um servidor web && 22/10/2019 \\ \hline
+		Desenvolvimento  & 12/12/2019 & 20/03/2020 \\ \hline
+		Release: Primeira versão do sistema & 20/03/2020 & n/a \\ \hline
+		Desenvolvimento & 20/03/2020 & 10/04/2020 \\ \hline
+		Release: Segunda versão do sistema & 10/04/2020 & n/a \\ \hline
+		Desenvolvimento & 10/04/2020 & 01/05/2020 \\ \hline
+		Release: Terceira versão do sistema & 01/05/2020 & n/a \\ \hline
+		Desenvolvimento & 01/05/2020 & indefinido \\ \hline
+		Questionário de feedback dos usuários: Criação e publicação & 02/05/2020 & 10/05/2020 \\ \hline
+		Análise: Resultados e discussão & 10/05/2020 & 10/06/2020 \\ \hline
+		Proposta: GCES (Manutenção e evolução do sistema) & n/a & n/a \\ \hline
+	\end{tabular}%
+	}
+	\caption{Cronograma TCC 2}
+	\label{perfil}
+	Fonte: autor
+	% \small{Quadro 1 - Classificação das questões, \citeonline{raposo2016desafio}} 
+\end{table}
+
 
 % \begin{table}[h]
 % 	\centering

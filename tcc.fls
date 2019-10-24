@@ -172,12 +172,8 @@ INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/lm/t1lmss.fd
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/lm/ec-lmss12.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/lm/ec-lmssbx10.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/lm/ec-lmssbx10.tfm
-INPUT /Users/eduardojunio/Desktop/TCC1/template-latex-tcc/figuras/capa.eps
-INPUT /Users/eduardojunio/Desktop/TCC1/template-latex-tcc/figuras/capa.eps
-INPUT /Users/eduardojunio/Desktop/TCC1/template-latex-tcc/figuras/capa.eps
 INPUT /Users/eduardojunio/Desktop/TCC1/template-latex-tcc/figuras/capa-eps-converted-to.pdf
 INPUT /Users/eduardojunio/Desktop/TCC1/template-latex-tcc/figuras/capa-eps-converted-to.pdf
-INPUT /Users/eduardojunio/Desktop/TCC1/template-latex-tcc/figuras/capa.eps
 INPUT /Users/eduardojunio/Desktop/TCC1/template-latex-tcc/figuras/capa-eps-converted-to.pdf
 INPUT /Users/eduardojunio/Desktop/TCC1/template-latex-tcc/figuras/capa-eps-converted-to.pdf
 INPUT /Users/eduardojunio/Desktop/TCC1/template-latex-tcc/figuras/capa-eps-converted-to.pdf
@@ -308,6 +304,8 @@ INPUT /Users/eduardojunio/Desktop/TCC1/template-latex-tcc/figuras/fluxo.png
 INPUT /Users/eduardojunio/Desktop/TCC1/template-latex-tcc/figuras/moscow.png
 INPUT /Users/eduardojunio/Desktop/TCC1/template-latex-tcc/figuras/moscow.png
 INPUT /Users/eduardojunio/Desktop/TCC1/template-latex-tcc/figuras/moscow.png
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/lm/ec-lmbxi10.tfm
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/lm/ec-lmr8.tfm
 INPUT /Users/eduardojunio/Desktop/TCC1/template-latex-tcc/figuras/cascata.png
 INPUT /Users/eduardojunio/Desktop/TCC1/template-latex-tcc/figuras/cascata.png
 INPUT /Users/eduardojunio/Desktop/TCC1/template-latex-tcc/figuras/cascata.png
@@ -358,6 +356,12 @@ INPUT /Users/eduardojunio/Desktop/TCC1/template-latex-tcc/figuras/q10.png
 INPUT /Users/eduardojunio/Desktop/TCC1/template-latex-tcc/figuras/q10.png
 INPUT /Users/eduardojunio/Desktop/TCC1/template-latex-tcc/editaveis/anexos.tex
 INPUT /Users/eduardojunio/Desktop/TCC1/template-latex-tcc/editaveis/anexos.tex
+INPUT /Users/eduardojunio/Desktop/TCC1/template-latex-tcc/figuras/planocb.png
+INPUT /Users/eduardojunio/Desktop/TCC1/template-latex-tcc/figuras/planocb.png
+INPUT /Users/eduardojunio/Desktop/TCC1/template-latex-tcc/figuras/planocb.png
+INPUT /Users/eduardojunio/Desktop/TCC1/template-latex-tcc/figuras/planoapc.png
+INPUT /Users/eduardojunio/Desktop/TCC1/template-latex-tcc/figuras/planoapc.png
+INPUT /Users/eduardojunio/Desktop/TCC1/template-latex-tcc/figuras/planoapc.png
 INPUT /Users/eduardojunio/Desktop/TCC1/template-latex-tcc/tcc.ind
 INPUT /Users/eduardojunio/Desktop/TCC1/template-latex-tcc/tcc.ind
 OUTPUT /Users/eduardojunio/Desktop/TCC1/template-latex-tcc/tcc.lof
@@ -371,10 +375,12 @@ INPUT /usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmbx12.pfb
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmmi12.pfb
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmmi8.pfb
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr10.pfb
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr12.pfb
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr8.pfb
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmri10.pfb
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmri12.pfb
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmss10.pfb
