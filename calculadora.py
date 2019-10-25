@@ -52,18 +52,27 @@ dc7 = (int(resultado[18])+ int(resultado[19])+int(resultado[20])) / 3
 dc8 = (int(resultado[21])+ int(resultado[22])+int(resultado[23])) / 3
 
 print(dc1)
-print(dc1)
-print(dc1)
-print(dc1)
-print(dc1)
-print(dc1)
-print(dc1)
-print(dc1)
+print(dc2)
+print(dc3)
+print(dc4)
+print(dc5)
+print(dc6)
+print(dc7)
+print(dc8)
 
 442
 582
 529
-578
+556
+
+# 442, 582, 529, 
+# 556, 557, 503, 
+# 533, 515, 511, 
+# 541, 489, 498, 
+# 489, 516, 522, 
+# 397, 518, 397, 
+# 488, 373, 322,
+# 372, 412, 475
 
 # print(int(resultado[0])+ int(resultado[1])+int(resultado[2]))
 

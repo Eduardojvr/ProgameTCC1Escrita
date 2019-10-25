@@ -464,7 +464,7 @@ são apresentados os \textit{core drives} predominantes em cada perfil que, se u
 	Socializadores (\textit{Socializers}) & & &  &  & x & &  & \\ \hline
 	\end{tabular}%
 	}
-	\caption{\textit{Core drives} envolvidos em cada perfil de jogador}
+	\caption{Principais \textit{core drives} envolvidos em cada perfil de jogador}
 	\label{perfil}
 	Fonte: \cite{chou2017actionable}
 	% \small{Quadro 1 - Classificação das questões, \citeonline{raposo2016desafio}} 
@@ -666,6 +666,9 @@ Neste capítulo são apresentados com detalhes o passo a passo a ser realizado p
 de apoio ao ensino e aprendizagem de programação gamificada, bem como os passos dados para levantar os requisitos necessários
 para sua construção.
 
+Como apresentado no referencial teórico deste trabalho, o \textit{framework octalysis} é dividido em vários níveis. Neste
+trabalho, será abordado o nível 1. 
+
 \section{Fase 1: Coleta de informações }
 
 \subsection{Elicitação de requisitos}
@@ -676,10 +679,6 @@ foram incluidas  questões relacionadas aos \textit{games} com o objetivo de ide
 de jogos que pudessem ser incluidos na construção da ferramenta levando em consideração o  \textit{framework octalysis}
 apresentado no capítulo 2 deste trabalho.
 
-Como apresentado no capítulo anterior, existem quatro perfis de jogadores quando se leva em consideração a junção dos estudos de \citeonline{bartle1996hearts} e do \textit{framework Octalysis},
-com o objetivo de melhor identificar os perfis predominantes dos alunos, incluiu-se na pesquisa por questionário, questões baseadas no \textit{survey}
-da \textit{University of Waterloo}, que possui perguntas que ajudam na identifação destes perfis.
-
 Ao se concluir a pesquisa baseada no questionário, iniciou-se a pesquisa por plataformas gamificadas semelhantes, buscando
 identificar os mecanismos mais utilizados nestas ferramentas (sistema de \textit{ranking}, disputas e etc), usabilidade (layouts, responsividade e etc) entre outras.
 
@@ -688,8 +687,8 @@ Nas subseções a seguir, são apresentadas em detalhes a elaboração e resulta
 \subsubsection{Questionário}
 Para realizar a coleta de informações que permitissem a identificação dos requisitos e \textit{core drives}, foi elaborado um questionário 
 contendo 33 perguntas referentes à disciplina Algoritmos de Programação de Computadores, algumas outra perguntas
-relacionadas à jogos na perspectiva do participante do questionário e um terceiro conjunto de perguntas objetivando identificar 
-os perfis predominantes dos jogadores levando em consideração o \textit{framework Octalysis} e \citeonline{bartle1996hearts}. 
+relacionadas a jogos na perspectiva do participante do questionário. Algumas questões do questionário foram baseadas no \textit{survey}
+da \textit{University of Waterloo}, que possui perguntas que ajudam na identifação de preferências de jogadores.
 Em seguida, o questionário foi publicado em um grupo na rede social \textit{facebook} que contém
 vários estudantes dos cursos de engenharias da Universidade de Brasília (UnB), campus Gama (FGA). O mesmo questionário
 também foi disponibilizado em um grupo no \textit{telegram} da engenharia de software criado pelos próprios estudantes do
@@ -818,8 +817,6 @@ Até o momento de de elaboração deste trabalho, a plataforma contava com cerca
 Após concluir a coleta de informações, foi elaborado a tabela que é apresentada logo em seguida contendo os requisitos
 identificados.
 
-\pagebreak
-
 \begin{table}[h]
 	\centering
 	\resizebox{.8\textwidth}{!}{%
@@ -907,11 +904,10 @@ ser seguido.
 
 \subsection{Implementação de \textit{core drives}}
 
-
-Por meio da análise da figura \ref{perfiljogadores} e da tabela \ref{perfil}, é possível notar os principais \textit{core drives} 
-presentes em cada um dos perfis de jogadores. Por meio destes dois artefatos e utilizando-se dos resultados do questionário , é possível 
-identificar os perfis predominantes dentro do grupo para o qual a proposta de desenvolvimento da ferramenta está sendo direcionada 
-(alunos da FGA).
+% Por meio da análise da figura \ref{perfiljogadores} e da tabela \ref{perfil}, é possível notar os principais \textit{core drives} 
+% presentes em cada um dos perfis de jogadores. Por meio destes dois artefatos e utilizando-se dos resultados do questionário , é possível 
+% identificar os perfis predominantes dentro do grupo para o qual a proposta de desenvolvimento da ferramenta está sendo direcionada 
+% (alunos da FGA).
 
 Para a realizar a escolha dos \textit{core drives} principais a serem implementados, utilizou-se os dados coletados por meio do questionário
 \ref{apendicea}. Como apresentado no referencial teórico deste trabalho, existem oito núcleos quando se leva em consideração o \textit{framework Octalysis},
@@ -968,14 +964,14 @@ os cálculos. Os resultados são apresentados na tabela \ref{calculos}. O script
 	\begin{tabular}{|p{6cm}|p{6cm}|}
 	\hline
 	\textbf{\textit{Core drive}} & \textbf{Valor} \\ \hline
-		Significado épico e chamado &  1 \\ \hline
-		Desenvolvimento e conquista  &  2\\ \hline
-		Empoderamento e feedback  &  3 \\ \hline
-		Propriedade e posse  &  4 \\ \hline
-		Influência e relacionamento social  &  5 \\ \hline
-		Escassez e impaciência  &  6 \\ \hline
-		Imprevisibilidade e curiosidade  &  7 \\ \hline
-		Prevenção e perda  &  8 \\ \hline
+		Significado épico e chamado &  517,67  \\ \hline
+		Desenvolvimento e conquista  &  538,67 \\ \hline
+		Empoderamento e feedback  &  519,67 \\ \hline
+		Propriedade e posse  &   509,33\\ \hline
+		Influência e relacionamento social  &  509 \\ \hline
+		Escassez e impaciência  &  437,33 \\ \hline
+		Imprevisibilidade e curiosidade  &  394,33 \\ \hline
+		Prevenção e perda  &  419,67 \\ \hline
 	\end{tabular}%
 	}
 	\caption{Resultados dos cálculos de relevância.}
@@ -984,6 +980,31 @@ os cálculos. Os resultados são apresentados na tabela \ref{calculos}. O script
 	% \small{Quadro 1 - Classificação das questões, \citeonline{raposo2016desafio}} 
 \end{table}
 
+Tendo como base os valores obtidos, os três principais \textit{core drives} a serem utilizados na ferramenta são: "Desenvolvimento e conquista" (DC 2), "Empoderamento
+e \textit{feedback}" (DC 3) e "Significado épico e chamado" (DC 1).
+
+As técnicas a serem utilizadas são apresentadas na tabela \ref{tecnicas}.
+
+
+\begin{table}[h]
+	\centering
+	\resizebox{\textwidth}{!}{%
+	\begin{tabular}{|p{6cm}|p{6cm}|}
+	\hline
+	\textbf{\textit{Core drive}} & \textbf{Técnicas} \\ \hline
+		Desenvolvimento e conquista &  Pontos, \textit{ranking}, lista de desafios, prêmios e barra de progresso. \\ \hline
+		Empoderamento e \textit{feedback} &  Desbloqueio de marcos e \textit{feedback}\\ \hline
+		Significado épico e chamado & Narrativa, sorte de iniciante e elitismo \\ \hline
+		Prevenção e perda & Perda de progresso e perda de pontos\\ \hline
+	\end{tabular}%
+	}
+	\caption{Técnicas a serem utilizadas.}
+	\label{tecnicas}
+	Fonte: Autor
+	% \small{Quadro 1 - Classificação das questões, \citeonline{raposo2016desafio}} 
+\end{table}
+
+É importante ressaltar que pode haver a inclusão ou diminuição na quantidade de técnicas e \textit{core drives} a serem implementados.
 
 
 % COLOCAR AQUI O GRAICO OCTALYSIS DO MEU MODELO RESULTANTE.
