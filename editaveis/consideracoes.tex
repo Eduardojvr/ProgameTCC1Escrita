@@ -686,7 +686,7 @@ identificar os mecanismos mais utilizados nestas ferramentas (sistema de \textit
 Nas subseções a seguir, são apresentadas em detalhes a elaboração e resultados obtidos a partir das pesquisas realizadas.
 
 \subsubsection{Questionário}
-Para realizar a coleta de informações que permitissem a identificação dos requisitos, foi elaborado um questionário 
+Para realizar a coleta de informações que permitissem a identificação dos requisitos e \textit{core drives}, foi elaborado um questionário 
 contendo 33 perguntas referentes à disciplina Algoritmos de Programação de Computadores, algumas outra perguntas
 relacionadas à jogos na perspectiva do participante do questionário e um terceiro conjunto de perguntas objetivando identificar 
 os perfis predominantes dos jogadores levando em consideração o \textit{framework Octalysis} e \citeonline{bartle1996hearts}. 
@@ -699,6 +699,71 @@ Disponibilizar o questionário no grupo do \textit{facebook} em que se encontram
 teve como objetivo reunir o maior número possível de informações sobre a perspectiva de diferentes perfis de alunos que cursam, cursaram ou vão
 cursar a disciplina introdutória de programação.
 
+O questionário contou com a participação 58 alunos. A quantidade e percentual de participantes por curso podem ser apreciadas na tabela \ref{participantes} e
+na figura \ref{graficocurso}.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[keepaspectratio=true,scale=0.75]{figuras/graficocurso.png}
+	\caption{Gráfico resultante da pesquisa por curso.}
+	Fonte: {Autor}
+	\label{graficocurso}
+\end{figure}
+
+
+\begin{table}[h]
+	\centering
+	\resizebox{.8\textwidth}{!}{%
+	\begin{tabular}{|l|l|l|l|}
+	\hline
+	\textbf{Curso} & \textbf{Quantidade} & \textbf{Percentual} \\ \hline
+		Engenharia de Software & 48 alunos & 82,8\% \\ \hline
+		Engenharia Aeroespacial & 03 alunos & 5,2\% \\ \hline
+		Engenharia Eletrônica & 04 alunos & 6,9\% \\ \hline
+		Engenharia de Energia & 02 alunos & 3,4\% \\ \hline
+		Engenharia Automotiva & 01 aluno & 1,7\% \\ \hline
+	\end{tabular}%
+	}
+	\caption{Participação no questionário}
+	\label{participantes}
+	Fonte: {Autor}
+	% \small{Quadro 2 - Requisitos funcionais} 
+\end{table}
+
+\subsubsubsection{Escolha da linguagem de programação como foco de ensino}
+Embora a construção da ferramenta seja feita de forma a permitir a inclusão de várias linguagens de programação, a linguagem C será
+utilizada como foco deste estudo. A decisão foi tomada com base no \textit{survey} realizado que continha uma pergunta voltada diretamente
+para identificar as linguagens mais utilizadas na disciplina de "Algoritmos e Programação de Computadores". Os resultados da pesquisa podem
+ser apreciados na figura \ref{linguagemc}.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[keepaspectratio=true,scale=0.75]{figuras/linguagemc.png}
+	\caption{Linguagens de programação utilizadas em APC.}
+	Fonte: {Autor}
+	\label{linguagemc}
+\end{figure}
+
+\subsubsubsection{Características de \textit{design}}
+Com o questionário, buscava-se também identificar os \textit{games} mais jogados pelos estudantes. Desta forma, o questionário continha uma
+pergunta dissertativa que permitia aos participantes informarem um ou mais jogos que o mesmo estava engajado. O objetivo era utilizar 
+a plataforma/site do jogo como fonte de extração de características de \textit{design} que poderiam vir a ser incorporadas na ferramenta a ser
+desenvolvida.
+
+Na figura \ref{gamejogados}, é possível notar a distribuição das respostas quanto a preferência dos jogos.
+
+\pagebreak
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[keepaspectratio=true,scale=0.75]{figuras/gamejogados.png}
+	\caption{Gráfico resultante da pesquisa por preferência de jogos.}
+	Fonte: {Autor}
+	\label{gamejogados}
+\end{figure}
+
+Tendo como base os resultados da pesquisa, o \textit{website} do jogo \textit{"League of Legends"} será utilizado como base para a extração de algumas
+características visuais a serem implementadas.
 
 As perguntas realizadas podem ser encontradas no apêndice \ref{apendicea} deste trabalho.
 
@@ -847,6 +912,14 @@ Por meio da análise da figura \ref{perfiljogadores} e da tabela \ref{perfil}, �
 presentes em cada um dos perfis de jogadores. Por meio destes dois artefatos e utilizando-se dos resultados do questionário , é possível 
 identificar os perfis predominantes dentro do grupo para o qual a proposta de desenvolvimento da ferramenta está sendo direcionada 
 (alunos da FGA).
+
+Para a realizar a escolha dos \textit{core drives} principais a serem implementados, utilizou-se os dados coletados por meio do questionário
+\ref{apendicea}. Como apresentado no referencial teórico deste trabalho, existem oito núcleos quando se leva em consideração o \textit{framework Octalysis},
+tendo isso em mente, a seção dois do questionário foi elaborada com três afirmações para cada \textit{core}, totalizando 24 afirmações, que deveriam ser julgadas
+pelos participantes de acordo com a relevância/importância que este dá ao item. O intervalo de relevância foi elaborado com uma escala de variação de 0 a 10 e, quanto mais alto
+fosse o valor selecionado, maior seria a importância dada ao item pelo participante.
+
+
 
 % COLOCAR AQUI O GRAFICO OCTALYSIS DO MEU MODELO RESULTANTE.
 
