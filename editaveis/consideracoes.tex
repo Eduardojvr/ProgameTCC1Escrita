@@ -552,7 +552,7 @@ questões dos mais variados níveis de complexidade, permitindo que os jogadores
 conquistassem pontos e adquirissem armas. O objetivo era estimular os jogadores a estabelecerem uma rotina de estudos,
 dedicando diariamente algum tempo para a resolução de exercícios voltados para a programação.
 
-As questões foram classificadas em três níveis de complexidade (fácil, médio e difícil), no quadro a seguir, apresenta-se
+As questões foram classificadas em três níveis de complexidade (fácil, médio e difícil), na tabela a seguir, apresenta-se
 as características de cada um destes níveis.
 
 \begin{table}[h]
@@ -919,9 +919,74 @@ tendo isso em mente, a seção dois do questionário foi elaborada com três afi
 pelos participantes de acordo com a relevância/importância que este dá ao item. O intervalo de relevância foi elaborado com uma escala de variação de 0 a 10 e, quanto mais alto
 fosse o valor selecionado, maior seria a importância dada ao item pelo participante.
 
+Atribui-se pesos para valor do intervalo de relevância, quanto maior o valor da escala, maior é o pesoa aplicado sobre ele. A distribuição dos pesos
+é apresentado na tabela \ref{distribuicao}.
+
+\begin{table}[h]
+	\centering
+	\resizebox{\textwidth}{!}{%
+	\begin{tabular}{|p{6cm}|p{6cm}|}
+	\hline
+	\textbf{Valor na escala} & \textbf{Peso} \\ \hline
+		0  &  1 \\ \hline
+		1  &  2\\ \hline
+		2  &  3 \\ \hline
+		3  &  4 \\ \hline
+		4  &  5 \\ \hline
+		5  &  6 \\ \hline
+		6  &  7 \\ \hline
+		7  &  8 \\ \hline
+		8  &  9 \\ \hline
+		9  &  10 \\ \hline
+		10 &  11\\ \hline
+	\end{tabular}%
+	}
+	\caption{Distribuição dos pesos na escala}
+	\label{distribuicao}
+	Fonte: Autor
+	% \small{Quadro 1 - Classificação das questões, \citeonline{raposo2016desafio}} 
+\end{table}
+
+O cálculo que permite identificar os \textit{core} com maior relevância de acordo com os participantes do questionário é apresentado 
+na equação \ref{calculo}.
+
+\begin{equation}
+	\label{calculo}
+	\scriptstyle CDX = \frac{((qtdVotosIxQx * pesoEscala) + (qtdVotosIxQx * pesoEscala) + (qtdVotosIxQx * pesoEscala)) }{3}
+\end{equation}
+
+Sendo que $CDX$ representa o \textit{Core drive} de número x, $qtdVotosIxQx$ é a quantidade de votos em um determinado 
+item x de uma determinada questão x e $pesoEscala$ é o peso atribuído a cada item/valor (tabela \ref{distribuicao}).
+
+Para tornar os cálculos mais eficientes e diminuir as chances de ocorrência de erros, foi elaborado um script que automatizou
+os cálculos. Os resultados são apresentados na tabela \ref{calculos}. O script utilizado pode ser apreciado no apêndice \ref{script}.
+\pagebreak
+
+\begin{table}[h]
+	\centering
+	\resizebox{\textwidth}{!}{%
+	\begin{tabular}{|p{6cm}|p{6cm}|}
+	\hline
+	\textbf{\textit{Core drive}} & \textbf{Valor} \\ \hline
+		Significado épico e chamado &  1 \\ \hline
+		Desenvolvimento e conquista  &  2\\ \hline
+		Empoderamento e feedback  &  3 \\ \hline
+		Propriedade e posse  &  4 \\ \hline
+		Influência e relacionamento social  &  5 \\ \hline
+		Escassez e impaciência  &  6 \\ \hline
+		Imprevisibilidade e curiosidade  &  7 \\ \hline
+		Prevenção e perda  &  8 \\ \hline
+	\end{tabular}%
+	}
+	\caption{Resultados dos cálculos de relevância.}
+	\label{calculos}
+	Fonte: Autor
+	% \small{Quadro 1 - Classificação das questões, \citeonline{raposo2016desafio}} 
+\end{table}
 
 
-% COLOCAR AQUI O GRAFICO OCTALYSIS DO MEU MODELO RESULTANTE.
+
+% COLOCAR AQUI O GRAICO OCTALYSIS DO MEU MODELO RESULTANTE.
 
 \subsection{Plano pedagógico}
 
