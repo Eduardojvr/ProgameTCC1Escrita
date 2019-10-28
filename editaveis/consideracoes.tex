@@ -373,7 +373,7 @@ todos os \textit{core drive} objetivando obter resultados positivos e produtivos
 
 \subsection{Níveis \textit{Octalysis}}
 
-O \textit{framework Ocatlysis} é dividido em vários níveis que quanto mais alto forem, mais domínio por parte do "gamificador" é requerido \cite{chou2017actionable}.
+O \textit{framework Ocatlysis} é dividido em vários níveis que, quanto mais alto forem, mais domínio por parte do "gamificador" é requerido \cite{chou2017actionable}.
 Nas subseções que se seguem, são apresentadas as características relacionadas aos três primeiros níveis do \textit{octalysis}.
 
 \subsubsection{Nível 1}
@@ -825,17 +825,18 @@ identificados.
 	\textbf{Identificador} & \textbf{Requisito}\\ \hline
 	RF 01 & CRUD de jogadores \\ \hline
 	RF 02 & Ativar/desativar perfil de jogadores \\ \hline
-	RF 03 & Sistema de rankeamento de jogadore\\ \hline
+	RF 03 & Rankeamento de jogadores\\ \hline
 	RF 04 & CRUD de disciplinas \\ \hline
 	RF 05 & CRUD de turmas \\ \hline
 	RF 06 & CRUD de conteúdos \\ \hline
-	RF 07 & Desafios individuais para jogadores \\ \hline
+	RF 07 & CRUD de desafios \\ \hline
 	RF 08 & Sistema de recompensas (pontuação) \\ \hline
 	RF 09 & Dashboard pessoal de desempenho (jogadores)  \\ \hline
 	RF 10 & CRUD de professores/monitores de uma turma\\ \hline
 	RF 11 & Painel de acompanhamento de desempenho dos aluno (professores/monitores) \\ \hline
-
-
+	RF 12 & Narrativa temática \\ \hline
+	RF 13 & Lógica de premiação \\ \hline
+	RF 14 & Lógica de progressão de jogadores \\ \hline
 	\end{tabular}%
 	}
 	\caption{Requisitos Funcionais}
@@ -886,7 +887,17 @@ Na tabela \ref{prioridade}, são apresentados os requisitos priorizados a partir
 	\begin{tabular}{|p{6cm}|p{6cm}|p{6cm}|p{6cm}|}
 	\hline
 	\textbf{\textit{Must}} & \textbf{\textit{Should}} & \textbf{\textit{Could}} & \textbf{\textit{Wont}} \\ \hline
-		X & X & X & X  \\ \hline
+		RF 01 & RF 09 & RF 02 & -  \\ \hline
+		RF 03 & RF 10 & - & -  \\ \hline
+		RF 04 & - & - & -  \\ \hline
+		RF 05 & - & - & -  \\ \hline
+		RF 06 & - & - & -  \\ \hline
+		RF 07 & - & - & -  \\ \hline
+		RF 08 & - & - & -  \\ \hline
+		RF 10 & - & - & -  \\ \hline
+		RF 12 & - & - & -  \\ \hline
+		RF 13 & - & - & -  \\ \hline
+		RF 14 & - & - & -  \\ \hline
 	\end{tabular}%
 	}
 	\caption{Requisitos priorizados utilizando \textit{moscow}}
@@ -956,7 +967,7 @@ item x de uma determinada questão x e $pesoEscala$ é o peso atribuído a cada 
 
 Para tornar os cálculos mais eficientes e diminuir as chances de ocorrência de erros, foi elaborado um script que automatizou
 os cálculos. Os resultados são apresentados na tabela \ref{calculos}. O script utilizado pode ser apreciado no apêndice \ref{script}.
-\pagebreak
+% \pagebreak
 
 \begin{table}[h]
 	\centering
