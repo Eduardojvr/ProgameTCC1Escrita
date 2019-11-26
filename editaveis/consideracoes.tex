@@ -56,6 +56,12 @@ De acordo com \citeonline{de2009visualg}, a abordagem de ensino tradicional de p
 uma série de conceitos aos alunos e os mesmos têm a tarefa de entender como se aplicam na resolução de problemas,
 para a maioria dos estudantes, se revelam muito abstratas.
 
+===========================
+
+CARACTERISTICAS DA FGA AQUI
+
+===========================
+
 Um estudo realizado pela Universidade Federal da Paraíba (UFPB) que analisou por seis períodos 
 acadêmicos os índices de reprovação na disciplina de Introdução à programação, apontou que 
 em nenhum dos seis períodos analisados houvera um índice de aprovação superior a 34\%. Além disso,
@@ -75,9 +81,18 @@ de pesquisa:
 Como desenvolver uma ferramenta gamificada para auxiliar o ensino e aprendizagem de programação?
  
 \section{Objetivos}
-Tendo sido apresentado o contexto e problema que este trabalho visa abranger, objetiva-se
+Tendo sido apresentado o contexto e problema, o objetivo geral do presente trabalho é
 desenvolver uma ferramenta que auxilie professores e estudantes no processo de ensino e aprendizagem
-de linguagens de programação em cursos de engenharias.
+de linguagens de programação em cursos de engenharias. 
+
+Para alcançar o objetivo geral, foram definidos os seguintes objetivos específicos:
+\begin{itemize}
+	\item Identificação dos requisitos necessários para a construção da ferramenta;
+	\item Desenvolvimento da ferramenta gamificada;
+	\item Definição do método de coleta de dados;
+	\item Análise dos dados a respeito da experiência de uso dos usuários.
+\end{itemize}
+
 
 \chapter[Referencial Teórico]{Referencial Teórico}
 
@@ -522,91 +537,6 @@ seção, são apresentadas dois estudos, um desenvolvido por pesquisadores da Un
 da Universidade de Brasília. Ambos os trabalho foram elaborados objetivando fornecer um meio de auxiliar o ensino e aprendizagem 
 de programação nessas universidades.
 
-\subsection{O Desafio da Serpente}
-Tendo em vista os problemas motivacionais e dificuldades enfrentadas por alunos de graduação no que se refere ao
-aprendizado de programação do curso de computação da Universidade Federal
-da Paraíba, \citeonline{raposo2016desafio} desenvolveram um jogo que foi disponibilizado na \textit{web} {\itshape} e apelidado
-de "O Desafio da Serpente". O propósito da criação do jogo é estimular os alunos a praticarem diariamente seus conhecimentos
-por meio de uma série de questões selecionadas e disponibilizadas pelo professor da disciplina.
-
-O jogo envolve os alunos em uma batalha contra uma serpente que faz referência à linguagem de programação utilizada na
-disciplina (\textit{python}{\itshape}). Para enfrentar e derrotar a serpente, os jogadores devem conquistar armas mediante o acúmulo
-de pontos e resolução dos desafios propostos. 
-
-Em seguida é apresentado um tabuleiro conceitual do jogo. No tabuleiro é possível
-identificar por meio das diferentes cores as cinco fases propostas e as armas que podem ser conquistasdas mediante a
-resolução dos desafios. O uso do corpo da serpente como tabuleiro tem como objetivo apresentar o caminho sequencial que deve
-ser seguido pelos jogadores em busca da vitória. Cada fase, representadas pelas cores na figura \ref{figura1}, correspondem a um conteúdo
-que deve ser estudado pelos jogadores.
-
-\begin{figure}[h]
-	\centering
-	\includegraphics[keepaspectratio=true,scale=0.25]{figuras/desafioSerpente.png}
-	\caption{Representação conceitual do jogo}
-	Fonte: \cite{raposo2016desafio}
-	\label{figura1}
-\end{figure}
-
-Todos os dias da semana, de segunda a sexta feira, eram disponibilizados desafios que continham de duas a seis
-questões dos mais variados níveis de complexidade, permitindo que os jogadores, ao concluírem os desafios propostos, 
-conquistassem pontos e adquirissem armas. O objetivo era estimular os jogadores a estabelecerem uma rotina de estudos,
-dedicando diariamente algum tempo para a resolução de exercícios voltados para a programação.
-
-As questões foram classificadas em três níveis de complexidade (fácil, médio e difícil), na tabela a seguir, apresenta-se
-as características de cada um destes níveis.
-
-\begin{table}[h]
-	\centering
-	\resizebox{\textwidth}{!}{%
-	\begin{tabular}{|l|l|l|l|}
-	\hline
-	\textbf{Complexidade} & \textbf{Tipo de Questão} & \textbf{Tempos estimado para resposta} & \textbf{Quantidade máxima de questões por dia} \\ \hline
-	Fácil & \begin{tabular}[c]{@{}l@{}}V ou F\\ Teórica Objetiva\end{tabular} & 5 minutos & 8 \\ \hline
-	Médio & \begin{tabular}[c]{@{}l@{}}Acompanhamento\\  (Teste de Mesa)\end{tabular} & 10 minutos & 4 \\ \hline
-	Difícil & \begin{tabular}[c]{@{}l@{}}Elaboração de\\ Programas\end{tabular} & 20 minutos & 2 \\ \hline
-	\end{tabular}%
-	}
-	\caption{Classificação das questões}
-	Fonte: \cite{raposo2016desafio}
-	% \small{Quadro 1 - Classificação das questões, \citeonline{raposo2016desafio}} 
-\end{table}
-
-Objetivando manter os jogadores motivados, cada fase possuia um sistema de (\textit{ranking}{\itshape}) independente
-das fases anteriores, desta forma, mesmo que um jogador não tivesse obtido uma boa pontuação nas fases anteriores, ele
-começaria a fase seguinte sem desvantagem em relação aos demais jogadores. 
-
-A medida que os jogadores acumulavam pontos, os mesmos conquistavam novas armas para combater a serpente. Estas armas podiam
-ser de defesa (escudos,armaduras e etc) ou de ataque (espada, lança e etc). O objetivo era fazer com que os jogadores conseguissem conquistar
-o maior número possível de armas em cada fase. Cada armamento possuia uma quantidade mínima de pontos necessários para sua
-aquisição e possuiam apenas funções simbólicas..
-
-\begin{figure}[h]
-	\centering
-	\includegraphics[keepaspectratio=true,scale=0.45]{figuras/armas.png}
-	\caption{Exemplos de armas e pontuações}
-	Fonte: \cite{raposo2016desafio}
-	\label{figura2}
-\end{figure}
-
-Além de permitir que os jogadores colecionassem pontos e armas, os primeiros jogadores tinham sua fotos expostas no
-site do jogo, exaltando suas conquistas.
-
-Para motivar os alunos a utilizarem a ferramenta e possibilitar a coleta de dados que permitissem analisar o 
-impacto do uso da tecnologia gamificada no ensino de programação, foi acordado que, os alunos que obtivessem 
-um aproveitamento de no mínimo 70\% em todas as fases do jogo, receberiam um ponto extra na primeira unidade 
-da disciplina. Os alunos que obtivessem nota superior ou igual a 50\% em todas as fases do jogo, receberiam 
-meio ponto extra na nota da primeira unidade da disciplina. Desta forma, a participação no jogo teria caráter 
-voluntário e não estaria diretamente ligado às avaliações da disciplina. Recompensar os alunos com pontos extras
-tinha como objetivo identificar até que ponto a motivação dos jogadores em solucionar os desafios seria ocasionado
-pelo próprio jogo e não por pontos.
-
-Considerando as quatro primeiras semanas de aula utilizando a ferramenta, os resultados foram bastante animadores.
-Do total de 106 alunos que realmente frequentaram as aulas, apenas quatro não participaram de nenhum dos desafios 
-propostos, o que indica que a aceitação da ferramenta pelos alunos foi de mais de 96\% . Além destes indicadores 
-quantitativos, \citeonline{raposo2016desafio} relatou em sua pesquisa que a empolgação dos alunos na utilização da 
-ferramenta era bastante perceptível. Muitos alunos se diziam bastante ansiosos para o desafio do dia e notou-se um 
-grande aumento no número de discussões a respeito das questões durante as aulas.
-
 \subsection{Ambiente de aprendizagem Gamificado para ensino de Algoritmos}
 
 \citeonline{wilker}, em seu trabalho de conclusão de curso, apresentou uma proposta de gamificação baseada no \textit{framework Ocatalysis} nível 2, seu estudo baseou-se na
@@ -659,6 +589,208 @@ impletadas é, por exemplo, o ganho de medalhas e pontos. Juntas, as ferramentas
 Embora o trabalho não tenha contado com feedbacks dos usuários, segundo \citeonline{wilker}, a proposta foi tida
 como satisfatória, uma vez que os testes realizados apresentavam comportamentos esperados baseados na literatura, principalmente
 Yukai, levantada pelo autor.
+
+\subsection{Outros trabalhos semelhantes}
+Nesta seção é apresentada uma ferramenta gamificada desenvolvida por pesquisadores da Universidade Federal da Paraíba a partir 
+da utilização de técnicas alternativas ao \textit{framework Octalysis}. O estudo baseou-se no desenvolvimento de uma ferramenta para
+auxiliar o aprendizado de programação dos alunos da própria universidade.
+
+\subsubsection{O Desafio da Serpente}
+Tendo em vista os problemas motivacionais e dificuldades enfrentadas por alunos de graduação no que se refere ao
+aprendizado de programação do curso de computação da Universidade Federal
+da Paraíba, \citeonline{raposo2016desafio} desenvolveram um jogo que foi disponibilizado na \textit{web} {\itshape} e apelidado
+de "O Desafio da Serpente". O propósito da criação do jogo é estimular os alunos a praticarem diariamente seus conhecimentos
+por meio de uma série de questões selecionadas e disponibilizadas pelo professor da disciplina.
+
+O jogo envolve os alunos em uma batalha contra uma serpente que faz referência à linguagem de programação utilizada na
+disciplina (\textit{python}{\itshape}). Para enfrentar e derrotar a serpente, os jogadores devem conquistar armas mediante o acúmulo
+de pontos e resolução dos desafios propostos. 
+
+Em seguida é apresentado um tabuleiro conceitual do jogo. No tabuleiro é possível
+identificar por meio das diferentes cores as cinco fases propostas e as armas que podem ser conquistasdas mediante a
+resolução dos desafios. O uso do corpo da serpente como tabuleiro tem como objetivo apresentar o caminho sequencial que deve
+ser seguido pelos jogadores em busca da vitória. Cada fase, representadas pelas cores na figura \ref{figura1}, correspondem a um conteúdo
+que deve ser estudado pelos jogadores.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[keepaspectratio=true,scale=0.25]{figuras/desafioSerpente.png}
+	\caption{Representação conceitual do jogo}
+	Fonte: \cite{raposo2016desafio}
+	\label{figura1}
+\end{figure}
+
+\pagebreak
+
+Todos os dias da semana, de segunda a sexta feira, eram disponibilizados desafios que continham de duas a seis
+questões dos mais variados níveis de complexidade, permitindo que os jogadores, ao concluírem os desafios propostos, 
+conquistassem pontos e adquirissem armas. O objetivo era estimular os jogadores a estabelecerem uma rotina de estudos,
+dedicando diariamente algum tempo para a resolução de exercícios voltados para a programação.
+
+As questões foram classificadas em três níveis de complexidade (fácil, médio e difícil), na tabela a seguir, apresenta-se
+as características de cada um destes níveis.
+
+\begin{table}[h]
+	\centering
+	\resizebox{\textwidth}{!}{%
+	\begin{tabular}{|l|l|l|l|}
+	\hline
+	\textbf{Complexidade} & \textbf{Tipo de Questão} & \textbf{Tempos estimado para resposta} & \textbf{Quantidade máxima de questões por dia} \\ \hline
+	Fácil & \begin{tabular}[c]{@{}l@{}}V ou F\\ Teórica Objetiva\end{tabular} & 5 minutos & 8 \\ \hline
+	Médio & \begin{tabular}[c]{@{}l@{}}Acompanhamento\\  (Teste de Mesa)\end{tabular} & 10 minutos & 4 \\ \hline
+	Difícil & \begin{tabular}[c]{@{}l@{}}Elaboração de\\ Programas\end{tabular} & 20 minutos & 2 \\ \hline
+	\end{tabular}%
+	}
+	\caption{Classificação das questões}
+	Fonte: \cite{raposo2016desafio}
+	% \small{Quadro 1 - Classificação das questões, \citeonline{raposo2016desafio}} 
+\end{table}
+
+Objetivando manter os jogadores motivados, cada fase possuia um sistema de (\textit{ranking}{\itshape}) independente
+das fases anteriores, desta forma, mesmo que um jogador não tivesse obtido uma boa pontuação nas fases anteriores, ele
+começaria a fase seguinte sem desvantagem em relação aos demais jogadores. 
+
+A medida que os jogadores acumulavam pontos, os mesmos conquistavam novas armas para combater a serpente. Estas armas podiam
+ser de defesa (escudos,armaduras e etc) ou de ataque (espada, lança e etc). O objetivo era fazer com que os jogadores conseguissem conquistar
+o maior número possível de armas em cada fase. Cada armamento possuia uma quantidade mínima de pontos necessários para sua
+aquisição e possuiam apenas funções simbólicas.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[keepaspectratio=true,scale=0.45]{figuras/armas.png}
+	\caption{Exemplos de armas e pontuações}
+	Fonte: \cite{raposo2016desafio}
+	\label{figura2}
+\end{figure}
+
+\pagebreak
+
+Além de permitir que os jogadores colecionassem pontos e armas, os primeiros jogadores tinham sua fotos expostas no
+site do jogo, exaltando suas conquistas.
+
+Para motivar os alunos a utilizarem a ferramenta e possibilitar a coleta de dados que permitissem analisar o 
+impacto do uso da tecnologia gamificada no ensino de programação, foi acordado que, os alunos que obtivessem 
+um aproveitamento de no mínimo 70\% em todas as fases do jogo, receberiam um ponto extra na primeira unidade 
+da disciplina. Os alunos que obtivessem nota superior ou igual a 50\% em todas as fases do jogo, receberiam 
+meio ponto extra na nota da primeira unidade da disciplina. Desta forma, a participação no jogo teria caráter 
+voluntário e não estaria diretamente ligado às avaliações da disciplina. Recompensar os alunos com pontos extras
+tinha como objetivo identificar até que ponto a motivação dos jogadores em solucionar os desafios seria ocasionado
+pelo próprio jogo e não por pontos.
+
+Considerando as quatro primeiras semanas de aula utilizando a ferramenta, os resultados foram bastante animadores.
+Do total de 106 alunos que realmente frequentaram as aulas, apenas quatro não participaram de nenhum dos desafios 
+propostos, o que indica que a aceitação da ferramenta pelos alunos foi de mais de 96\% . Além destes indicadores 
+quantitativos, \citeonline{raposo2016desafio} relatou em sua pesquisa que a empolgação dos alunos na utilização da 
+ferramenta era bastante perceptível. Muitos alunos se diziam bastante ansiosos para o desafio do dia e notou-se um 
+grande aumento no número de discussões a respeito das questões durante as aulas.
+
+\subsection{Engenharia de \textit{software}}
+
+Como apresentado por \cite{tripp1994ieee}, a engenharia de software consiste na aplicação de uma abordagem sistemática, discplinada
+e quantificável no desenvolvimento, na manutenção e operação de software, ou seja, é aplicação da engenharia ao
+software.
+
+No livro "Engenharia de Software: Uma abordagem tradicional", \citeonline{pressman} diz que a engenharia de software é
+uma tecnologia em camadas que deve ter como foco o comprometimento com a qualidade. O autor apresenta quatro camadas que
+são, na visão dele, as principais camadas presentes na engenharia de software. 
+
+\pagebreak
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[keepaspectratio=true,scale=0.45]{figuras/camada.png}
+	\caption{Camadas da engenharia de software}
+	Fonte: \cite{pressman}
+	\label{figura123}
+\end{figure}
+
+O processo é a fonte que mantém as camadas de tecnologia coesas e possibilita que se desenvolva o software de 
+forma racional e dentro dos prazos estabelecidos. O procesos de software permite o controle e gerencimento de
+projetos onde  a qualidade é garantida e mudanças são geridas de forma apropriada.
+
+A camada denominada métodos envolve uma ampla gama de tarefas, que incluem: análise de requisitos, modelagem,
+comunicação, construção de programa, testes e suporte. Os métodos da engenharia de software baseiam-se em um 
+conjunto de princípios básicos que gerenciam cada área da tecnologia e inclui diversas atividades, como as
+apresentadas neste parágrafo.
+
+A camada superior, denominada ferramentas, referem-se às tecnologias de \textit{software} que fornecem suporte
+automatizado ou semiautomatizado para o processo e para os métodos.
+
+\subsubsection{Metodologia cascata}
+
+De acordo com \citeonline{semedo2012ganhos}, metodologia pode ser definida como um conjunto de procedimentos, técnicas, documentação e ferramentas que 
+auxiliam os responsáveis ou interessados no desenvolvimento e implementação de um sistema de informação. Na maioria das vezes, o sucesso
+de um projeto de software depende de vários fatores que vão desde o planejamento à escolha mais adequada de uma metodologia.
+
+O modelo cascata, também conhecido como modelo tradicional, é uma das metodologias mais antigas e conhecidas. A utilização desta 
+metodologia consiste em seguir o desenvolvimento do projeto de forma sequencial, onde só se deve passar para os níveis seguintes após
+a conclusão do nível anterior. Esta metodologia envolve duas grandes fases: levantamento de requisitos/necessidades e design. \cite{semedo2012ganhos}
+
+Muitos autores desencorajam a utilização da metodologia cascata no desenvolvimento de grandes sistemas, como é o caso do pesquisador
+\apudonline{gilb1988principles}{semedo2012ganhos}  e \apudonline{brooks}{semedo2012ganhos}. Este tipo de metodologia deve ser usada apenas em situações onde os requisitos do software são estáveis e requisitos
+que possam vir a surgir no futuro sejam previsíveis. \cite{semedo2012ganhos}
+
+
+No modelo cascata apresentado por \citeonline{pressman} no livro "Engenharia de Software: Uma abordagem profissional", o autor
+apresenta cinco fases sequenciais que devem ser satisfeitas no desenvolvimento de um sistema obedecendo esta metodologia(cascata). 
+Cada uma das cinco fases podem ser vistas na figura \ref{cascata} apresentada logo em seguida.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[keepaspectratio=true,scale=0.6]{figuras/cascata.png}
+	\caption{Modelo cascata}
+	Fonte: \cite{pressman}
+	\label{cascata}
+\end{figure}
+
+
+\subsubsection{Engenharia de requisitos}
+
+A engenharia de requisitos é uma importante área dentro da engenharia de \textit{software}. Ela tem início na fase mais
+inicial dos projetos de \textit{software} , a comunicação e se perpetua até a fase de modelagem e deve ser adaptada às 
+necessidades do processo, projeto, produto e pessoas que estão envolvidas no trabalho.
+
+A engenharia de requisitos fornece apoio e técnicas apropriadas para entender aquilo que o cliente quer, 
+analisando suas necessidades, negociando soluções razoáveis para o tipo de problema, avaliando a viabilidade
+entre outras características que permitem o desenvolvimento de soluções que atendam às demandas dos usuários.
+
+\subsubsubsection{Priorização de requisitos: \textit{Moscow}}
+
+Como apresentado por \citeonline{pressman}, há diversas formas de se elicitar requisitos, seja por meio de reuniões
+com clientes ou por meio de questionários, o importante é entender quais são as necessidades e urgências dos clientes
+e buscar atendê-las da melhor forma possível, levando em considaração metodologias e técnicas da engenharia de software.
+
+A técnica de priorização \textit{Moscow}, consiste na utilização de um quadro dividido em quatro colunas que servem como "classificadores"
+de prioridade.\cite{moscow}
+
+Logo em seguida são apresentados resumidamente cada um das quatro possíveis classificações abordadas pela técnica.
+\begin{itemize}
+	\item  \textit{Must Have}: nesta coluna vão todos os requisitos que críticos ou obrigatórios para a construção do sistema. Se um dos ítens
+não é concluído, o projeto não é considerado bem sucedido;
+	\item  \textit{Should Have}: itens com classificação \textit{should} são importantes mas não são necessários para entrega em um primeiro 
+momento. São ítens tão importantes quanto os classificados como \textit{must}, mas em geral não são críticos ou pode-se esperar um pouco para ser
+trabalhado;
+	\item \textit{Could Have}: Ítens com esta classificação são desejáveis, mas não são necessários. Geralmente podem ser atendidos quando 
+houver tempo e recursos disponíveis para sua realização.
+	\item \textit{Would Have}: Ítens com esta classificação são os menos críticos ou não são adequados para serem realizados durante algum
+período de tempo.
+\end{itemize}
+
+Segundo \citeonline{moscow}, algumas vantagens de se utilizar a técnica \textit{moscow} são: facilidade de compreensão, facilidade de trabalho, linguagem simples
+entre outras. É importante salientar que se trata de uma técnica subjetiva quando se refere à classificação dos ítens e por este motivo, demanda de um 
+bom entendimento do problema que se tem a intenção de resolver, de forma a melhor identificar quais ítens são de fato prioridades em relação à outros ítens.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[keepaspectratio=true,scale=0.75]{figuras/moscow.png}
+	\caption{Exemplificação da classificação de ítens quanto à sua prioridade}
+	Fonte: \cite{moscow}
+	\label{moscow}
+\end{figure}
+
+Na figura \ref{moscow} é apresentado uma esquematização simplificada quanto à forma correta de utilização do \textit{moscow} como 
+técnica de priorização de requisitos. É possível notar a redução gradativa da prioridade dos ítens quanto a sua necessidade
+e urgência de desenvolvimento. 
 
 
 \chapter{Metodologia}
@@ -730,7 +862,7 @@ na figura \ref{graficocurso}.
 \end{table}
 
 \subsubsubsection{Escolha da linguagem de programação como foco de ensino}
-Embora a construção da ferramenta seja feita de forma a permitir a inclusão de várias linguagens de programação, a linguagem C será
+Embora a construção da ferramenta será feita de forma a permitir a inclusão de várias linguagens de programação, a linguagem C será
 utilizada como foco deste estudo. A decisão foi tomada com base no \textit{survey} realizado que continha uma pergunta voltada diretamente
 para identificar as linguagens mais utilizadas na disciplina de "Algoritmos e Programação de Computadores". Os resultados da pesquisa podem
 ser apreciados na figura \ref{linguagemc}.
@@ -813,7 +945,7 @@ compreensão dos jogadores sobre a lógica envolvida.
 
 Até o momento de de elaboração deste trabalho, a plataforma contava com cerca de 835.122.270 submissões de soluções.
 
-\subsection{Priorização de requisitos: \textit{Moscow}}
+\subsection{Priorização de requisitos}
 Após concluir a coleta de informações, foi elaborado a tabela que é apresentada logo em seguida contendo os requisitos
 identificados.
 
@@ -842,12 +974,6 @@ identificados.
 	RF 17 & CRUD de questões \\ \hline
 	RF 18 & Desafios entre times/grupos \\ \hline
 	RF 19 & Torneios/campeonatos entre turmas \\ \hline
-
-
-
-
-
-
 	\end{tabular}%
 	}
 	\caption{Requisitos Funcionais}
@@ -855,40 +981,8 @@ identificados.
 	% \small{Quadro 2 - Requisitos funcionais} 
 \end{table}
 
-Com base na tabela apresentada anteriormente, utilizou-se a técnica de priorização de requisitos \textit{moscow} para realizar
-a priorização dos requisitos. Esta técnica consiste na utilização de um quadro dividido em quatro colunas que servem como "classificadores"
-de prioridade.\cite{moscow}
-
-Logo em seguida são apresentados resumidamente cada um das quatro possíveis classificações abordadas pela técnica.
-\begin{itemize}
-	\item  \textit{Must Have}: nesta coluna vão todos os requisitos que críticos ou obrigatórios para a construção do sistema. Se um dos ítens
-não é concluído, o projeto não é considerado bem sucedido;
-	\item  \textit{Should Have}: itens com classificação \textit{should} são importantes mas não são necessários para entrega em um primeiro 
-momento. São ítens tão importantes quanto os classificados como \textit{must}, mas em geral não são críticos ou pode-se esperar um pouco para ser
-trabalhado;
-	\item \textit{Could Have}: Ítens com esta classificação são desejáveis, mas não são necessários. Geralmente podem ser atendidos quando 
-houver tempo e recursos disponíveis para sua realização.
-	\item \textit{Would Have}: Ítens com esta classificação são os menos críticos ou não são adequados para serem realizados durante algum
-período de tempo.
-\end{itemize}
-
-Segundo \citeonline{moscow}, algumas vantagens de se utilizar a técnica \textit{moscow} são: facilidade de compreensão, facilidade de trabalho, linguagem simples
-entre outras. É importante salientar que se trata de uma técnica subjetiva quando se refere à classificação dos ítens e por este motivo, demanda de um 
-bom entendimento do problema que se tem a intenção de resolver, de forma a melhor identificar quais ítens são de fato prioridades em relação à outros ítens.
-
-Em seguida é apresentado um diagrama que torna o entendimento da utilização técnica \textit{moscow} mais simples.
-
-\begin{figure}[h]
-	\centering
-	\includegraphics[keepaspectratio=true,scale=0.75]{figuras/moscow.png}
-	\caption{Exemplificação da classificação de ítens quanto à sua prioridade}
-	Fonte: \cite{moscow}
-	\label{moscow}
-\end{figure}
-
-Na figura \ref{moscow} é apresentado uma esquematização simplificada quanto à forma correta de utilização do \textit{moscow} como 
-técnica de priorização de requisitos. É possível notar a redução gradativa da prioridade dos ítens quanto a sua necessidade
-e urgência de desenvolvimento. 
+Com base na tabela apresentada anteriormente, utilizou-se a técnica de priorização \textit{moscow} para realizar
+a priorização dos requisitos. As características desta técnica podem ser apreciadas no referencial teórico deste trabalho.
 
 Na tabela \ref{prioridade}, são apresentados os requisitos priorizados a partir desta técnica (\textit{moscow}.
 
@@ -1075,35 +1169,29 @@ A ordem de apresentação dos conteúdos aos usuários pela ferramenta é aprese
 
 \section{Fase 2: Desenvolvimento da ferramenta}
 
-\subsection{Metodologia cascata}
-
-De acordo com \citeonline{semedo2012ganhos}, metodologia pode ser definida como um conjunto de procedimentos, técnicas, documentação e ferramentas que 
-auxiliam os responsáveis ou interessados no desenvolvimento e implementação de um sistema de informação. Na maioria das vezes, o sucesso
-de um projeto de software depende de vários fatores que vão desde o planejamento à escolha mais adequada de uma metodologia.
-
-O modelo cascata, também conhecido como modelo tradicional, é uma das metodologias mais antigas e conhecidas. A utilização desta 
-metodologia consiste em seguir o desenvolvimento do projeto de forma sequencial, onde só se deve passar para os níveis seguintes após
-a conclusão do nível anterior. Esta metodologia envolve duas grandes fases: levantamento de requisitos/necessidades e design. \cite{semedo2012ganhos}
-
-Muitos autores desencorajam a utilização da metodologia cascata no desenvolvimento de grandes sistemas, como é o caso do pesquisador
-\apudonline{gilb1988principles}{semedo2012ganhos}  e \apudonline{brooks}{semedo2012ganhos}. Este tipo de metodologia deve ser usada apenas em situações onde os requisitos do software são estáveis e requisitos
-que possam vir a surgir no futuro sejam previsíveis. \cite{semedo2012ganhos}
+\subsection{Metodologia utilizada}
 
 No desenvolvimento da ferramenta, escolheu-se a metodologia cascata devido a natureza de desenvolvimento deste trabalho ser compatível com as 
 catacterísticas propostas pela metodologia. O desenvolvimento da ferramenta parte da definição dos requisitos que deverão
 ser atendidos, planejamento, desenvolvimento, testes e entrega final.
 
-No modelo cascata apresentado por \citeonline{pressman} no livro "Engenharia de Software: Uma abordagem profissional", o autor
-apresenta cinco fases sequenciais que devem ser satisfeitas no desenvolvimento de um sistema obedecendo esta metodologia(cascata). 
-Cada uma das cinco fases podem ser vistas na figura \ref{cascata} apresentada logo em seguida.
+As características desta metodologia podem ser apreciadas em detalhes no referencial teórico deste trabalho.
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[keepaspectratio=true,scale=0.6]{figuras/cascata.png}
-	\caption{Modelo cascata}
-	Fonte: \cite{pressman}
-	\label{cascata}
-\end{figure}
+	\includegraphics[keepaspectratio=true,scale=0.6]{figuras/modeloprocesso.png}
+	\caption{Modelo de processos com principais atividades}
+	Fonte: {Autor}
+	\label{modeloprocesso}
+\end{figure}	
+
+No modelo apresentado na figura \ref{modeloprocesso}, é possível identificar em cada fase as principais atividades, iniciando pela definição
+do escopo do projeto, elicitação de requisitos por meio da aplicação de um questionário e extração de algumas características
+de \textit{design} de outras ferramentas e jogos, priorização dos requisitos por meio da ferramenta \textit{moscow},
+ estimativa de desenvolvimento (disponível no tópico de cronogramas), definição das tecnologias de desenvolvimento a serem
+ utilizadas, modelagem arquitetural da ferramenta a ser construída, desenvolvimento da ferramenta utilizando ferramentas e
+ seguindo metodologia definida, testes do sistema de \textit{software}, disponibilização da versão a ser utilizada como foco 
+de análise, coleta de \textit{feedback} por meio da aplicação de questionário e análise dos dados.  
 
 
 \subsection{Tecnologias}
@@ -1192,6 +1280,7 @@ Ao final do desenvolvimento, é de grande relevância que haja uma quantidade si
 do uso da ferramenta, como por exemplo: sugestões de melhorias, \textit{feedbacks} a respeito da experiência e etc.
 
 Planeja-se aplicar um questionário contendo questões voltadas para o levantamento da experiência obtida pelos jogadores ao utilizar a ferramenta.
+
 
 \subsection{Protótipo}
 Ao final do desenvolvimento, espera-se como resultado do \textit{design} do sistema características semelhantes às apresentadas nesta subseção. 
